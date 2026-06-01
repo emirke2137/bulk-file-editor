@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="960mm"
+   height="720mm"
+   viewBox="0 0 960 720"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.088862584"
+     inkscape:cx="8462.5043"
+     inkscape:cy="2577.0126"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="960"
+       height="720"
+       id="page9"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="1054.015"
+       y="8.9323311"
+       width="750.3158"
+       height="644.61658"
+       id="page10"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="1055.5038"
+       y="683.3233"
+       width="745.84961"
+       height="550.82709"
+       id="page11"
+       margin="0 0 0"
+       bleed="0" />
+    <inkscape:page
+       x="1838.5714"
+       y="14.887218"
+       width="756.27068"
+       height="637.17295"
+       id="page14" />
+    <inkscape:page
+       x="1843.0376"
+       y="683.32333"
+       width="748.82707"
+       height="541.89475"
+       id="page27" />
+    <inkscape:page
+       x="2670.7669"
+       y="11.909775"
+       width="911.09775"
+       height="1205.8647"
+       id="page28" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <rect
+       x="4326.9055"
+       y="3952.7322"
+       width="1612.0395"
+       height="458.5732"
+       id="rect27" />
+    <rect
+       x="4127.1588"
+       y="3359.1191"
+       width="1243.493"
+       height="101.27997"
+       id="rect26" />
+    <rect
+       x="4191.511"
+       y="3119.264"
+       width="370.01473"
+       height="141.24218"
+       id="rect25" />
+    <rect
+       x="4044.1655"
+       y="2702.2059"
+       width="493.73986"
+       height="181.45995"
+       id="rect22" />
+    <rect
+       x="7466.5846"
+       y="478.26653"
+       width="1339.1463"
+       height="132.22663"
+       id="rect21" />
+    <rect
+       x="7399.0646"
+       y="492.33319"
+       width="1080.3197"
+       height="486.70653"
+       id="rect19" />
+    <rect
+       x="7304.818"
+       y="233.5066"
+       width="1026.8664"
+       height="106.90664"
+       id="rect18" />
+    <rect
+       x="4782.6653"
+       y="1018.4264"
+       width="1294.133"
+       height="438.87988"
+       id="rect15" />
+    <rect
+       x="1762.5433"
+       y="2168.3659"
+       width="978.74865"
+       height="246.67649"
+       id="rect1" />
+    <rect
+       x="7466.5845"
+       y="478.26654"
+       width="1339.1462"
+       height="132.22662"
+       id="rect21-6" />
+    <rect
+       x="7466.5845"
+       y="478.26654"
+       width="1339.1462"
+       height="132.22662"
+       id="rect21-61" />
+    <rect
+       x="7466.5845"
+       y="478.26654"
+       width="1339.1462"
+       height="132.22662"
+       id="rect21-69" />
+    <rect
+       x="4191.5112"
+       y="3119.2639"
+       width="370.01474"
+       height="141.24219"
+       id="rect25-4" />
+    <rect
+       x="4191.5112"
+       y="3119.2639"
+       width="370.01474"
+       height="141.24219"
+       id="rect25-2" />
+    <rect
+       x="4191.5112"
+       y="3119.2639"
+       width="370.01474"
+       height="141.24219"
+       id="rect25-48" />
+    <rect
+       x="4326.9053"
+       y="3952.7322"
+       width="1612.0396"
+       height="458.57321"
+       id="rect27-7" />
+    <rect
+       x="4326.9053"
+       y="3952.7322"
+       width="1612.0396"
+       height="458.57321"
+       id="rect27-77" />
+    <rect
+       x="4326.9053"
+       y="3952.7322"
+       width="1612.0396"
+       height="458.57321"
+       id="rect27-3" />
+    <rect
+       x="4326.9053"
+       y="3952.7322"
+       width="1612.0396"
+       height="458.57321"
+       id="rect27-5" />
+    <rect
+       x="4191.5112"
+       y="3119.2639"
+       width="370.01474"
+       height="141.24219"
+       id="rect25-481" />
+    <rect
+       x="4044.1655"
+       y="2702.2058"
+       width="493.73987"
+       height="181.45995"
+       id="rect22-7" />
+    <rect
+       x="4044.1655"
+       y="2702.2058"
+       width="493.73987"
+       height="181.45995"
+       id="rect22-74" />
+    <rect
+       x="4326.9053"
+       y="3952.7322"
+       width="1612.0396"
+       height="458.57321"
+       id="rect27-53" />
+    <rect
+       x="4326.9053"
+       y="3952.7322"
+       width="1612.0396"
+       height="458.57321"
+       id="rect27-53-4" />
+    <rect
+       x="4191.5112"
+       y="3119.2639"
+       width="370.01474"
+       height="141.24219"
+       id="rect25-48-0" />
+    <rect
+       x="4191.5112"
+       y="3119.2639"
+       width="370.01474"
+       height="141.24219"
+       id="rect25-48-0-0" />
+    <rect
+       x="4191.5112"
+       y="3119.2639"
+       width="370.01474"
+       height="141.24219"
+       id="rect25-48-0-7" />
+    <rect
+       x="4191.5112"
+       y="3119.2639"
+       width="370.01474"
+       height="141.24219"
+       id="rect25-48-0-0-9" />
+    <rect
+       x="4326.9053"
+       y="3952.7322"
+       width="1612.0396"
+       height="458.57321"
+       id="rect27-53-4-0" />
+    <rect
+       x="4326.9053"
+       y="3952.7322"
+       width="1612.0396"
+       height="458.57321"
+       id="rect27-53-4-0-2" />
+    <rect
+       x="4191.5112"
+       y="3119.2639"
+       width="370.01474"
+       height="141.24219"
+       id="rect25-48-0-0-9-2" />
+    <rect
+       x="4191.5112"
+       y="3119.2639"
+       width="370.01474"
+       height="141.24219"
+       id="rect25-48-0-0-9-8" />
+    <rect
+       x="4326.9053"
+       y="3952.7322"
+       width="1612.0396"
+       height="458.57321"
+       id="rect27-53-4-0-3" />
+    <rect
+       x="4782.6655"
+       y="1018.4264"
+       width="1294.1331"
+       height="438.87988"
+       id="rect15-8" />
+    <rect
+       x="4191.5112"
+       y="3119.2639"
+       width="2001.7476"
+       height="127.17553"
+       id="rect25-2-0" />
+    <rect
+       x="4191.5112"
+       y="3119.2639"
+       width="1824.5077"
+       height="163.74885"
+       id="rect25-48-5" />
+    <rect
+       x="4191.5112"
+       y="3119.2639"
+       width="2001.7476"
+       height="127.17553"
+       id="rect25-2-0-0" />
+    <rect
+       x="7399.0645"
+       y="492.33319"
+       width="1080.3197"
+       height="486.70654"
+       id="rect19-6" />
+    <rect
+       x="7399.0645"
+       y="492.33319"
+       width="1080.3197"
+       height="486.70654"
+       id="rect19-6-3" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#49a93b;fill-opacity:1;stroke:#41aba1;stroke-width:1.34888;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect2"
+       width="961.23041"
+       height="718.56879"
+       x="-0.81074381"
+       y="0.76828402" />
+    <rect
+       style="fill:#171b16;fill-opacity:1;stroke:#41aba1;stroke-width:0.865;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect11"
+       width="748.82709"
+       height="647.59399"
+       x="1054.015"
+       y="8.9323311" />
+  </g>
+  <rect
+     style="fill:#171b16;fill-opacity:1;stroke:#41aba1;stroke-width:4.50487;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect5-4"
+     width="586.00507"
+     height="704.80353"
+     x="369.54343"
+     y="10.874335" />
+  <rect
+     style="fill:#171b16;fill-opacity:1;stroke:#41aba1;stroke-width:7.34055;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect5-4-6"
+     width="907.71075"
+     height="1208.1333"
+     x="2671.0647"
+     y="18.345779" />
+  <rect
+     style="fill:#171b16;fill-opacity:1;stroke:#41aba1;stroke-width:4.57059;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect5-4-6-0"
+     width="851.53033"
+     height="499.28806"
+     x="2698.5833"
+     y="459.82019" />
+  <rect
+     style="fill:#171b16;fill-opacity:1;stroke:#41aba1;stroke-width:3.04994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect5-4-6-5"
+     width="874.10468"
+     height="216.58363"
+     x="2685.1724"
+     y="991.67041" />
+  <text
+     xml:space="preserve"
+     transform="matrix(1.6688329,0,0,1.6242327,-2414.0023,-2878.4373)"
+     id="text1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.6667px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);display:inline;fill:none;fill-opacity:1;stroke:#be4252;stroke-width:3.26929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     inkscape:label="text1"><tspan
+       x="1762.543"
+       y="2207.2019"
+       id="tspan2">960 x 720</tspan></text>
+  <rect
+     style="fill:#171b16;fill-opacity:1;stroke:#41aba1;stroke-width:2.56535;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect5"
+     width="364.63629"
+     height="367.31448"
+     x="3.02773"
+     y="6.0051732" />
+  <rect
+     style="fill:#171b16;fill-opacity:1;stroke:#41aba1;stroke-width:2.43378;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect6"
+     width="364.66238"
+     height="344.03964"
+     x="5.9921055"
+     y="370.51572" />
+  <rect
+     style="fill:#171b16;fill-opacity:1;stroke:#41aba1;stroke-width:4.01078;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect6-7"
+     width="735.27179"
+     height="463.39035"
+     x="1060.4353"
+     y="764.98956" />
+  <rect
+     style="fill:#171b16;fill-opacity:1;stroke:#32d843;stroke-width:0.869283;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect11-9"
+     width="756.26642"
+     height="647.58972"
+     x="1839.2075"
+     y="10.326594" />
+  <rect
+     style="fill:#f3f9c0;fill-opacity:0.272917;stroke:#3b9c93;stroke-width:0.869283;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect13-3"
+     width="754.76288"
+     height="77.413048"
+     x="1840.7109"
+     y="581.992" />
+  <rect
+     style="fill:#49a93b;fill-opacity:1;stroke:#3b9c93;stroke-width:0.865;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect14"
+     width="388.5564"
+     height="171.203"
+     x="1238.6165"
+     y="236.70677" />
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#41aba1;stroke-width:0.865;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect16"
+     width="72.947372"
+     height="71.458649"
+     x="1844.5264"
+     y="19.353384" />
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#41aba1;stroke-width:0.865;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect17"
+     width="637.17291"
+     height="64.015038"
+     x="1930.8722"
+     y="26.796991" />
+  <text
+     xml:space="preserve"
+     id="text14"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect15);display:inline;fill:#3d7022;fill-opacity:1;stroke:#053836;stroke-width:3.26929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     transform="matrix(0.83800503,0,0,0.74797139,-3108.688,-519.06789)"
+     x="647.06653"
+     y="0"><tspan
+       x="5281.4124"
+       y="1098.3183"
+       id="tspan3">Open 
+</tspan><tspan
+       x="5251.7484"
+       y="1218.3183"
+       id="tspan4">Folder</tspan></text>
+  <rect
+     style="fill:#49a93b;fill-opacity:1;stroke:#3b9c93;stroke-width:0.722425;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect14-2"
+     width="270.79822"
+     height="171.34558"
+     x="3277.3152"
+     y="1019.6012" />
+  <text
+     xml:space="preserve"
+     id="text14-8"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect15-8);display:inline;fill:#3d7022;fill-opacity:1;stroke:#053836;stroke-width:3.26929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     transform="matrix(0.83800503,0,0,0.74797139,-1134.1319,300.7419)"
+     x="647.06653"
+     y="0"><tspan
+       x="5281.4124"
+       y="1098.3183"
+       id="tspan5">Apply</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;fill:#2fc468;fill-opacity:1;stroke:#41aba1;stroke-width:0.865;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     x="1929.3833"
+     y="48.056427"
+     id="text17"><tspan
+       sodipodi:role="line"
+       id="tspan17"
+       style="stroke-width:0.865;fill:#2fc468;fill-opacity:1;stroke:#41aba1;stroke-opacity:1"
+       x="1929.3833"
+       y="48.056427">/home/user/path/to/</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="scale(0.26458333)"
+     id="text18"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect18);display:inline;fill:#2fc468;fill-opacity:1;stroke:#0f5107;stroke-width:3.26929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.2985479,0,0,0.44611631,-276.70458,-166.56836)"
+     id="text19"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect19);display:inline;fill:#2fc468;fill-opacity:1;stroke:#41aba1;stroke-width:3.26929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     inkscape:transform-center-x="179.39098"
+     inkscape:transform-center-y="-2.2330827"><tspan
+       x="7399.0645"
+       y="572.22649"
+       id="tspan6">Folder</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.2985479,0,0,0.44611631,490.56555,-172.60781)"
+     id="text19-0"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect19-6);display:inline;fill:#2fc468;fill-opacity:1;stroke:#41aba1;stroke-width:3.26929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     inkscape:transform-center-x="179.39098"
+     inkscape:transform-center-y="-2.2330827"><tspan
+       x="7399.0645"
+       y="572.22649"
+       id="tspan7">Directory contents</tspan></text>
+  <rect
+     style="fill:#47a538;fill-opacity:1;stroke:#56c54a;stroke-width:0.886149;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect20"
+     width="592.49017"
+     height="37.196896"
+     x="1974.0557"
+     y="125.06319" />
+  <text
+     xml:space="preserve"
+     transform="scale(0.26458333)"
+     id="text21"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect21);display:inline;fill:#1d3213;fill-opacity:1;stroke:none;stroke-width:3.26929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="7466.584"
+       y="558.15813"
+       id="tspan8">subfolder</tspan></text>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#56c54a;stroke-width:0.886149;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect20-0"
+     width="592.49017"
+     height="37.196896"
+     x="1973.2046"
+     y="171.93539" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,-0.85108692,46.872215)"
+     id="text21-6"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect21-6);display:inline;fill:#589e3c;fill-opacity:1;stroke:none;stroke-width:3.26929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="7466.584"
+       y="558.15813"
+       id="tspan9">subfolder</tspan></text>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#56c54a;stroke-width:0.886149;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect20-5"
+     width="592.49017"
+     height="37.196896"
+     x="1971.9417"
+     y="218.15282" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,-2.1139945,93.089633)"
+     id="text21-4"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect21-61);display:inline;fill:#589e3c;fill-opacity:1;stroke:none;stroke-width:3.26929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="7466.584"
+       y="558.15813"
+       id="tspan10">subfolder</tspan></text>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#56c54a;stroke-width:0.886149;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect20-7"
+     width="592.49017"
+     height="37.196896"
+     x="1971.0421"
+     y="264.20444" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,-3.0135992,139.14125)"
+     id="text21-45"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect21-69);display:inline;fill:#589e3c;fill-opacity:1;stroke:none;stroke-width:3.26929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="7466.584"
+       y="558.15813"
+       id="tspan11">subfolder</tspan></text>
+  <path
+     style="fill:#171b16;fill-opacity:1;stroke:#41aba1;stroke-width:2.83298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     d="m 68.772428,369.71751 c -2.822356,-1.03722 0,-35.26523 0,-35.26523 h 88.904312 l 47.62732,35.00592"
+     id="path22" />
+  <path
+     style="fill:#171b16;fill-opacity:1;stroke:#41aba1;stroke-width:2.46167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     d="m 6.8756833,372.20086 c -2.1074613,-1.0488 0,-35.65901 0,-35.65901 H 73.260761 l 35.563439,35.3968"
+     id="path22-4" />
+  <path
+     style="fill:#171b16;fill-opacity:1;stroke:#41aba1;stroke-width:5.45638;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     d="m 1203.0271,767.36063 c -5.9999,-1.80989 0,-61.53595 0,-61.53595 h 188.9998 l 101.2498,61.08347"
+     id="path22-8" />
+  <path
+     style="fill:#171b16;fill-opacity:1;stroke:#41aba1;stroke-width:4.74121;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     d="m 1062.2298,767.71802 c -4.4802,-1.83012 0,-62.22308 0,-62.22308 h 141.1267 l 75.6034,61.76554"
+     id="path22-4-4" />
+  <rect
+     style="fill:#171b16;fill-opacity:1;stroke:#41aba1;stroke-width:4.01078;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect6-7-4"
+     width="735.27179"
+     height="463.39035"
+     x="1847.754"
+     y="761.0274" />
+  <path
+     style="fill:#171b16;fill-opacity:1;stroke:#41aba1;stroke-width:4.74121;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     d="m 1847.9697,759.54511 c -4.4802,-1.83012 0,-62.22308 0,-62.22308 h 141.1267 l 75.6034,61.76554"
+     id="path22-4-4-6" />
+  <text
+     xml:space="preserve"
+     transform="scale(0.26458333)"
+     id="text22"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect22);display:inline;fill:#488220;fill-opacity:1;stroke:#41aba1;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4044.166"
+       y="2782.0976"
+       id="tspan12">select</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,811.08091,6.9549713)"
+     id="text22-8"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect22-74);display:inline;fill:#488220;fill-opacity:1;stroke:#41aba1;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4044.166"
+       y="2782.0976"
+       id="tspan13">select</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;fill:#488220;fill-opacity:1;stroke:#41aba1;stroke-width:2.461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     x="1291.9751"
+     y="740.47375"
+     id="text23"><tspan
+       sodipodi:role="line"
+       id="tspan23"
+       style="stroke-width:2.461"
+       x="1291.9751"
+       y="740.47375">edit</tspan></text>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:2.461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect23"
+     width="672.90228"
+     height="65.503754"
+     x="1091.2332"
+     y="809.86462" />
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:2.461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect23-1"
+     width="672.90228"
+     height="65.503754"
+     x="1092.0771"
+     y="917.93176" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#41aba1;stroke-width:2.461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     d="m 1861.9371,30.00153 c -0.1755,0.350895 -0.8773,0.877239 -0.5264,1.052684 0.3509,0.175448 0.8528,-1.270299 0.5264,-1.052684 -0.9291,0.619347 -1.8692,1.369877 -2.3686,2.368542 -0.039,0.07846 0.062,0.201141 0,0.26317 -0.1631,0.163126 -0.9263,0.400016 -1.0527,0.526344 -0.2345,0.234595 -0.1234,0.773192 -0.2631,1.052684 -0.1579,0.315807 -0.6316,0.47371 -0.7895,0.789514 -0.081,0.162589 -0.1657,0.955138 -0.2632,1.052687 -0.062,0.06203 -0.2012,-0.06203 -0.2632,0 -0.124,0.124061 0.1241,0.402281 0,0.526341 -0.1316,0.131586 -0.3947,0.131586 -0.5263,0.263173 -0.1241,0.124061 0.124,0.402281 0,0.526341 -0.062,0.06203 -0.1847,-0.03923 -0.2632,0 -1.0953,0.54763 0.2813,-0.01818 -0.2632,0.526344 -0.1315,0.131585 -0.3947,0.131585 -0.5263,0.26317 -0.1525,0.152535 -0.3738,0.900153 -0.5263,1.052687 -0.062,0.06203 -0.2012,-0.06203 -0.2632,0 -0.1824,0.182338 -0.081,1.133515 -0.2632,1.315855 -0.1723,0.172308 -0.6082,0.163666 -0.7895,0.526344 -0.633,1.265888 -0.9461,1.892168 -1.579,3.158056 -0.1579,0.315804 -0.6316,0.473707 -0.7895,0.789514 -0.039,0.07846 0.062,0.201142 0,0.26317 -0.062,0.06203 -0.2012,-0.06203 -0.2632,0 -0.176,0.176007 -0.7167,1.433389 -0.7895,1.579028 -0.5477,1.095256 0.018,-0.281339 -0.5264,0.263171 -0.088,0.08773 -0.1754,0.701791 -0.2632,0.789514 -0.1315,0.131585 -0.3947,0.131585 -0.5263,0.263173 -0.1241,0.12406 0.1241,0.40228 0,0.526341 -0.3201,0.320082 -0.5263,-0.126262 -0.5263,0.263173 0,0.124061 0.2631,0.13911 0.2631,0.26317 0,0.03735 -0.9072,0.408618 -0.5263,0.789514 0.062,0.06203 0.2011,-0.06203 0.2632,0 0.062,0.06203 -0.062,0.201142 0,0.263171 0.3796,0.379608 1.8691,-0.249716 2.3685,0 0.653,0.326485 1.3134,0.263173 2.1054,0.263173 0.2339,0 0.6191,0.433602 0.7895,0.263171 0.026,-0.02633 0.2018,-0.587751 0.5263,-0.263171 0.062,0.06203 -0.062,0.201139 0,0.263171 0.035,0.03522 3.0892,0 3.4213,0 0.3769,0 2.1286,-0.239909 2.3685,0 0.124,0.12406 0,0.350895 0,0.526343 0,0.701514 0.3069,2.281044 0,2.894883 -0.055,0.110964 -0.2077,0.15221 -0.2632,0.26317 -0.2497,0.499436 0.3796,1.988937 0,2.368542 -0.062,0.06203 -0.2011,-0.06203 -0.2631,0 -0.2527,0.252643 0.1661,1.24677 0,1.579029 -0.055,0.110963 -0.2077,0.152209 -0.2632,0.263173 -0.083,0.166536 -0.1198,8.70836 0,8.947824 0.19,0.379963 0.3364,0.672722 0.5263,1.052685 0.1177,0.235386 -0.083,0.539848 0,0.789514 0.1463,0.438692 0.8501,0.586875 1.0527,0.789514 0.1241,0.12406 -0.078,0.369416 0,0.526343 0.2354,0.470771 0.9531,0.871323 1.3159,1.052685 0.4177,0.208862 0.6158,0.879014 0.7895,1.052684 0.088,0.08773 0.7018,0.175448 0.7895,0.263173 0.062,0.06203 -0.062,0.201142 0,0.263171 0.062,0.06203 0.1847,-0.03923 0.2632,0 0.2219,0.110963 0.3044,0.41538 0.5263,0.526343 0.079,0.03923 0.2012,-0.06203 0.2632,0 0.062,0.06203 -0.062,0.201139 0,0.263171 0.139,0.139028 1.1768,0.650486 1.3158,0.789514 0.062,0.06203 -0.062,0.201141 0,0.26317 0.062,0.06203 0.2012,-0.06203 0.2632,0 0.062,0.06203 -0.062,0.201142 0,0.263173 0.027,0.0268 1.21,0.718926 1.3159,0.789514 0.2064,0.137631 0.3044,0.41538 0.5263,0.526341 0.1569,0.07846 0.4023,-0.12406 0.5263,0 0.062,0.06203 -0.062,0.201142 0,0.263173 0.1824,0.182338 1.1336,0.08083 1.3159,0.263171 0.062,0.06203 -0.062,0.201141 0,0.26317 0.1241,0.124061 0.4023,-0.12406 0.5264,0 0.062,0.06203 -0.062,0.201142 0,0.263171 0.2252,0.225218 1.9399,0.180483 2.1053,0.263173 0.5639,0.281958 0.7815,0.127545 1.0527,0.26317 0.079,0.03923 -0.062,0.201142 0,0.263171 0.2966,0.296611 1.7258,-0.12654 2.1054,0 1.8186,0.60621 3.315,0.526343 5.2634,0.526343 0.6172,0 -0.1241,-0.06203 0.5263,0.263171 0.1231,0.06155 4.8895,0.05539 5.0003,0 0.079,-0.03923 -0.079,-0.223938 0,-0.263171 0.6312,-0.3156 1.6924,0.225393 2.3685,0 0.1177,-0.03923 0.1755,-0.175448 0.2632,-0.26317 0.3509,-0.08773 0.698,-0.192239 1.0527,-0.263173 0.5075,-0.1015 1.0753,0.125925 1.579,0 0.1204,-0.03009 0.1455,-0.223938 0.2632,-0.263171 0.2497,-0.08322 0.5398,0.08322 0.7895,0 0.9494,-0.316471 2.0509,-0.367498 2.8949,-0.789514 0.3991,-0.199522 1.186,-0.06666 1.579,-0.26317 0.079,-0.03923 -0.078,-0.223941 0,-0.263171 0.5264,-0.263173 0.3948,0.131586 0.7895,0 0.787,-0.262316 1.3547,-0.802449 2.1054,-1.052687 0.4452,-0.148397 0.8678,-0.113821 1.3159,-0.26317 0.2726,-0.09087 0.5284,-0.395801 0.7895,-0.526344 0.2557,-0.127876 0.7969,-0.135292 1.0527,-0.26317 0.8835,-0.441743 1.7753,-1.150827 2.6317,-1.579028 0.2219,-0.110964 0.3044,-0.41538 0.5263,-0.526344 0.079,-0.03923 0.2012,0.06203 0.2632,0 0.2198,-0.219789 0.5476,-0.931712 0.7895,-1.052684 0.079,-0.03923 0.2011,0.06203 0.2632,0 0.8109,-0.810964 1.5721,-2.340989 1.8422,-3.421227 0.161,-0.644004 -0.054,-0.682347 0.2632,-1.315857 0.1095,-0.219112 -0.167,-0.885751 0,-1.052685 0.062,-0.06203 0.2239,0.07846 0.2631,0 0.1404,-0.280717 -0.1403,-0.771969 0,-1.052684 0.055,-0.110964 0.2077,-0.15221 0.2632,-0.263173 0.1381,-0.276104 -0.2101,-1.105803 0,-1.315855 0.062,-0.06203 0.2239,0.07846 0.2632,0 0.079,-0.158838 0.4011,-5.250691 0.2631,-5.526598 -0.2159,-0.431885 -0.9194,-0.263173 -1.3158,-0.263173 -2.6317,0 -5.2635,0 -7.8952,0 -0.3347,0 -1.8923,-0.213051 -2.1053,0 -0.098,0.09755 -0.1819,0.890098 -0.2632,1.052687 -0.084,0.168465 -0.4192,0.945541 -0.5263,1.052684 -0.062,0.06203 -0.2012,-0.06203 -0.2632,0 -0.3515,0.351494 -0.877,2.192869 -1.579,2.894886 -0.041,0.04104 -0.7485,0.485298 -0.7896,0.526341 -0.3205,0.32054 -0.1232,0.58798 -0.5263,0.789514 -1.5508,0.775382 -3.201,1.392383 -5.0002,1.842201 -1.2757,0.318921 -4.0423,0 -5.5267,0 -1.2852,0 -2.4744,0.03931 -3.6844,-0.263173 -0.1702,-0.04255 -0.3694,0.07846 -0.5263,0 -0.078,-0.03923 0.079,-0.223941 0,-0.263171 -0.1569,-0.07846 -0.3694,0.07846 -0.5263,0 -0.078,-0.03923 0.062,-0.201141 0,-0.26317 -0.153,-0.152951 -0.8316,-0.152591 -1.0527,-0.263173 -0.2219,-0.110961 -0.3044,-0.41538 -0.5264,-0.526341 -0.078,-0.03923 -0.2011,0.06203 -0.2631,0 -0.062,-0.06203 0.062,-0.201142 0,-0.263173 -0.1526,-0.152533 -0.9002,-0.373809 -1.0527,-0.526341 -0.5445,-0.544513 0.8321,0.02127 -0.2632,-0.526344 -0.8026,-0.401283 -2.2502,-1.605518 -2.6317,-2.368542 -0.2065,-0.412962 0.1457,-1.141889 0,-1.579028 -0.3817,-1.145167 -0.2618,-1.839523 -0.7895,-2.894886 -0.1662,-0.332258 0.2526,-1.326385 0,-1.579028 -0.062,-0.06203 -0.2632,0.08773 -0.2632,0 0,-0.196154 0.2012,-0.340251 0.2632,-0.52634 0.092,-0.27649 0,-0.758804 0,-1.052685 0,-0.206068 -0.1313,-1.184542 0,-1.315857 0.2209,-0.220869 2.1107,0 2.3685,0 1.4765,0 7.6846,0.333361 8.6847,0 0.1177,-0.03923 0.1522,-0.20769 0.2631,-0.263171 0.1222,-0.06106 1.2273,-0.61496 1.3159,-0.526343 0.062,0.06203 -0.088,0.26317 0,0.26317 0.1755,0 0.1241,-0.402283 0,-0.526341 -0.088,-0.08772 -0.7018,-0.175448 -0.7895,-0.263173 -0.088,-0.08772 -0.1755,-0.701789 -0.2632,-0.789514 -0.062,-0.06203 -0.2011,0.06203 -0.2632,0 -0.1387,-0.138703 -0.1244,-0.387638 -0.2631,-0.526341 -0.1387,-0.138705 -0.3877,-0.124468 -0.5264,-0.263173 -0.062,-0.06203 0.062,-0.201142 0,-0.263171 -0.062,-0.06203 -0.1847,0.03923 -0.2631,0 -1.0953,-0.547629 0.2813,0.01818 -0.2632,-0.526343 -0.1387,-0.138703 -0.3877,-0.124468 -0.5263,-0.263171 -0.062,-0.06203 0.062,-0.201141 0,-0.26317 -0.5446,-0.544512 0.021,0.832083 -0.5264,-0.263173 -0.3936,-0.787228 -1.069,-1.340289 -1.579,-2.105369 -0.2132,-0.319783 -0.9784,-1.767927 -1.0527,-1.842201 -0.062,-0.06203 -0.2012,0.06203 -0.2632,0 -0.2716,-0.271598 -0.3824,-0.764821 -0.5263,-1.052685 -0.2792,-0.55836 -1.1337,-1.133718 -1.579,-1.579028 -0.4936,-0.493556 -1.0914,-1.335217 -1.5791,-1.579028 -0.5819,-0.290943 -0.082,-0.163335 -0.2632,-0.526341 -0.1741,-0.348281 -2.2834,-2.457574 -2.6317,-2.631715 -0.238,-0.119036 -1.4404,-0.650912 -1.579,-0.789514 -0.062,-0.06203 0.062,-0.201141 0,-0.26317 -0.5445,-0.54451 0.021,0.832085 -0.5263,-0.263171 -0.039,-0.07846 0.062,-0.201141 0,-0.263173 -0.1241,-0.124058 -0.4023,0.124061 -0.5264,0 -0.062,-0.06203 0.062,-0.201141 0,-0.26317 -0.1525,-0.152532 -0.9001,-0.373809 -1.0527,-0.526344 -0.062,-0.06203 0.062,-0.201139 0,-0.26317 -0.124,-0.124061 -0.3694,0.07846 -0.5263,0 -0.2541,-0.12704 -1.4642,-0.674664 -1.579,-0.789514 -0.062,-0.06203 0.062,-0.201142 0,-0.263171 -0.088,-0.08772 -0.7018,-0.175448 -0.7895,-0.263173 -0.5446,-0.54451 0.832,0.0213 -0.2632,-0.526341 -0.079,-0.03923 -0.2012,0.06203 -0.2632,0 -0.062,-0.06203 0.062,-0.201141 0,-0.263173 -0.1617,-0.161684 -0.6133,-0.173863 -0.7895,-0.526341 -0.1084,-0.216826 -0.1068,-0.36993 -0.2632,-0.526343 -0.062,-0.06203 -0.2011,0.06203 -0.2631,0 -0.062,-0.06203 0.062,-0.201142 0,-0.263171 -0.2456,-0.245602 -2.6191,0.223769 -2.8949,0.263171 z"
+     id="path24" />
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:2.461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect24"
+     width="127.37492"
+     height="51.055237"
+     x="1097.4243"
+     y="817.4101" />
+  <text
+     xml:space="preserve"
+     transform="scale(0.26458333)"
+     id="text24"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25);display:inline;fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4191.5117"
+       y="3199.1562"
+       id="tspan14">.txt</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,-6.3653823,215.49809)"
+     id="text24-3"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-481);display:inline;fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4191.5117"
+       y="3199.1562"
+       id="tspan15">0</tspan></text>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:2.461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect24-2"
+     width="127.37492"
+     height="51.055237"
+     x="1232.1805"
+     y="817.56323" />
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:2.461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect24-11"
+     width="127.37492"
+     height="51.055237"
+     x="1090.5271"
+     y="1028.5405" />
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#41aba1;stroke-width:0.865;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect17-5"
+     width="637.17291"
+     height="64.015038"
+     x="2687.532"
+     y="38.771145" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.2985479,0,0,0.44611631,509.80979,259.84673)"
+     id="text19-0-0"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect19-6-3);display:inline;fill:#2fc468;fill-opacity:1;stroke:#41aba1;stroke-width:3.26929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     inkscape:transform-center-x="179.39098"
+     inkscape:transform-center-y="-2.2330827"><tspan
+       x="7399.0645"
+       y="572.22649"
+       id="tspan16">Selected</tspan></text>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#41aba1;stroke-width:0.865;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect17-5-9"
+     width="637.17291"
+     height="64.015038"
+     x="2706.7761"
+     y="471.22568" />
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:2.461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect24-2-5"
+     width="127.37492"
+     height="51.055237"
+     x="1225.2833"
+     y="1028.6936" />
+  <rect
+     style="fill:#49a93b;fill-opacity:1;stroke:#49a93b;stroke-width:1.61246;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect24-11-8"
+     width="53.787373"
+     height="51.903774"
+     x="1876.1058"
+     y="924.63959" />
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:1.61246;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect24-11-8-6"
+     width="53.787373"
+     height="51.903774"
+     x="1936.632"
+     y="924.63599" />
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:1.61246;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect24-11-8-6-2"
+     width="53.787373"
+     height="51.903774"
+     x="2422.0576"
+     y="921.50677" />
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:1.61246;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect24-11-8-6-2-6"
+     width="53.787373"
+     height="51.903774"
+     x="2427.3879"
+     y="1085.3333" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,134.75625,0.15317583)"
+     id="text24-0"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-4);display:inline;fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4191.5117"
+       y="3199.1562"
+       id="tspan18">.png</tspan></text>
+  <rect
+     style="fill:#49a93b;fill-opacity:1;stroke:#49a93b;stroke-width:2.461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect24-6"
+     width="127.37492"
+     height="51.055237"
+     x="1366.8308"
+     y="817.26764" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,269.40657,-0.14247111)"
+     id="text24-4"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-2);display:inline;fill:none;fill-opacity:1;stroke:#122610;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4191.5117"
+       y="3199.1562"
+       id="tspan19">.jpg</tspan></text>
+  <rect
+     style="fill:#49a93b;fill-opacity:1;stroke:#49a93b;stroke-width:6.35769;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect24-6-7"
+     width="564.13989"
+     height="76.932983"
+     x="2701.4558"
+     y="1024.4071" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,1601.2864,205.10786)"
+     id="text24-4-6"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-2-0);display:inline;fill:none;fill-opacity:1;stroke:#122610;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4191.5117"
+       y="3199.1562"
+       id="tspan20">Copy to a new folder </tspan></text>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:2.461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect24-1"
+     width="127.37492"
+     height="51.055237"
+     x="1501.5659"
+     y="817.76093" />
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:2.461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect24-1-5"
+     width="127.37492"
+     height="51.055237"
+     x="1099.8159"
+     y="925.78345" />
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:2.93395;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect24-1-0"
+     width="182.72905"
+     height="50.582287"
+     x="1234.0936"
+     y="926.8172" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,404.14163,0.35085793)"
+     id="text24-7"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-48);display:inline;fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4191.5117"
+       y="3199.1562"
+       id="tspan21">.pdf</tspan></text>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:6.28277;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect24-1-9"
+     width="561.23737"
+     height="75.51918"
+     x="2702.7346"
+     y="1119.6019" />
+  <rect
+     style="fill:#13250a;fill-opacity:1;stroke:#49a93b;stroke-width:3.04176;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect24-1-9-5"
+     width="380.25845"
+     height="26.125929"
+     x="2713.1055"
+     y="1071.9991" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,1606.903,304.73164)"
+     id="text24-7-1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-48-5);display:inline;fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4191.5117"
+       y="3199.1562"
+       id="tspan22">Overwrite</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,770.88511,112.64229)"
+     id="text24-7-0"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-48-0);display:inline;fill:none;fill-opacity:1;stroke:#0d1e0a;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4191.5117"
+       y="3199.1562"
+       id="tspan24">123</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,829.48581,112.93508)"
+     id="text24-7-0-9"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-48-0-0);display:inline;fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4191.5117"
+       y="3199.1562"
+       id="tspan25">abc</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,1334.1414,109.26619)"
+     id="text24-7-0-9-6"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-48-0-0-9);display:inline;fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4191.5117"
+       y="3199.1562"
+       id="tspan28">0</tspan></text>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:1.52331;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect24-11-8-6-2-3"
+     width="47.921638"
+     height="51.992928"
+     x="2036.3672"
+     y="1077.8875" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,945.51801,267.18013)"
+     id="text24-7-0-9-6-1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-48-0-0-9-8);display:inline;fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4191.5117"
+       y="3199.1562"
+       id="tspan29">0</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.16915373,0,0,0.16915373,2011.7409,548.71651)"
+     id="text24-4-6-8"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-2-0-0);display:inline;fill:none;fill-opacity:1;stroke:#79ff6b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4191.5117"
+       y="3199.1562"
+       id="tspan30">/home/user/folder...</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,1342.4141,274.41905)"
+     id="text24-7-0-9-6-0"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-48-0-0-9-2);display:inline;fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4191.5117"
+       y="3199.1562"
+       id="tspan31">1</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="scale(0.26458333)"
+     id="text25"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect26);display:inline;fill:#49a93b;fill-opacity:1;stroke:#122610;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4127.1582"
+       y="3540.2909"
+       id="tspan33"><tspan
+         dx="0 52.735981 52.735981 52.735985 52.735977 52.735977 52.735992 52.735962 52.735992 52.735992 52.735962 52.735962 52.736023 52.735962 52.735962 52.736023"
+         style="font-size:85.3333px;stroke:#43a93b"
+         id="tspan32">containing words</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,-52.849624,-154.08271)"
+     id="text26"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect27);display:inline;fill:#49a93b;fill-opacity:1;stroke:#43a93b;stroke-width:1.36441;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4326.9062"
+       y="4023.748"
+       id="tspan34">containing words</tspan></text>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:2.461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect23-1-8"
+     width="672.90228"
+     height="65.503754"
+     x="1877.2921"
+     y="822.99951" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,732.36527,-249.01498)"
+     id="text26-3"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect27-53);display:inline;fill:#49a93b;fill-opacity:1;stroke:#43a93b;stroke-width:1.36441;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4326.9062"
+       y="4023.748"
+       id="tspan35">new name</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,729.45838,-150.72057)"
+     id="text26-3-3"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect27-53-4);display:inline;fill:#49a93b;fill-opacity:1;stroke:#43a93b;stroke-width:1.36441;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4326.9062"
+       y="4023.748"
+       id="tspan36">appendix</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,1129.0969,-111.36465)"
+     id="text26-3-3-1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect27-53-4-0);display:inline;fill:#49a93b;fill-opacity:1;stroke:#43a93b;stroke-width:1.36441;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4326.9062"
+       y="4014.8711"
+       id="tspan37">placeholder</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,753.80998,51.095707)"
+     id="text26-3-3-1-1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect27-53-4-0-3);display:inline;fill:#49a93b;fill-opacity:1;stroke:#43a93b;stroke-width:1.36441;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4326.9062"
+       y="4014.8711"
+       id="tspan38">separator</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,1122.8597,21.836446)"
+     id="text26-3-3-1-8"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect27-53-4-0-2);display:inline;fill:#49a93b;fill-opacity:1;stroke:#43a93b;stroke-width:1.36441;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4326.9062"
+       y="4014.8711"
+       id="tspan39">number of
+</tspan><tspan
+       x="4326.9062"
+       y="4108.2046"
+       id="tspan40">preceding 
+</tspan><tspan
+       x="4326.9062"
+       y="4201.5381"
+       id="tspan41">characters</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,-55.167363,-44.368647)"
+     id="text26-9"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect27-5);display:inline;fill:#49a93b;fill-opacity:1;stroke:#43a93b;stroke-width:1.36441;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4326.9062"
+       y="4023.748"
+       id="tspan42">size</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,-53.101482,-263.72333)"
+     id="text26-4"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect27-3);display:inline;fill:#49a93b;fill-opacity:1;stroke:#43a93b;stroke-width:1.36441;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4326.9062"
+       y="4023.748"
+       id="tspan43">extensions</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,102.10668,-107.00559)"
+     id="text26-1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect27-7);display:inline;fill:#49a93b;fill-opacity:1;stroke:#43a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4326.9062"
+       y="4023.748"
+       id="tspan44">containing </tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,-37.977745,-109.91248)"
+     id="text26-7"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect27-77);display:inline;fill:#49a93b;fill-opacity:1;stroke:#43a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+       x="4326.9062"
+       y="4023.748"
+       id="tspan45">words</tspan></text>
+  <path
+     style="fill:#171b16;fill-opacity:1;stroke:#41aba1;stroke-width:4.86078;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     d="m 2066.9164,760.05227 -79.7351,-61.33783 h 202.691 l 67.8122,60.01876 z"
+     id="path27" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;fill:#488220;fill-opacity:1;stroke:#41aba1;stroke-width:2.461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     x="2097.2312"
+     y="744.37598"
+     id="text23-1"><tspan
+       sodipodi:role="line"
+       id="tspan23-7"
+       style="stroke-width:2.461"
+       x="2097.2312"
+       y="744.37598">edit</tspan></text>
+  <rect
+     style="fill:#171b16;fill-opacity:1;stroke:none;stroke-width:4.28862;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect28"
+     width="172.46007"
+     height="18.768017"
+     x="2072.301"
+     y="751.70746" />
+</svg>
