@@ -23,15 +23,16 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.088862584"
-     inkscape:cx="8462.5043"
-     inkscape:cy="2577.0126"
+     inkscape:zoom="0.12567067"
+     inkscape:cx="6831.3473"
+     inkscape:cy="3182.9224"
      inkscape:window-width="1920"
      inkscape:window-height="1012"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg1">
+     inkscape:current-layer="svg1"
+     showgrid="false">
     <inkscape:page
        x="0"
        y="0"
@@ -367,7 +368,7 @@
      inkscape:label="text1"><tspan
        x="1762.543"
        y="2207.2019"
-       id="tspan2">960 x 720</tspan></text>
+       id="tspan1">960 x 720</tspan></text>
   <rect
      style="fill:#171b16;fill-opacity:1;stroke:#41aba1;stroke-width:2.56535;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
      id="rect5"
@@ -396,13 +397,6 @@
      height="647.58972"
      x="1839.2075"
      y="10.326594" />
-  <rect
-     style="fill:#f3f9c0;fill-opacity:0.272917;stroke:#3b9c93;stroke-width:0.869283;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-     id="rect13-3"
-     width="754.76288"
-     height="77.413048"
-     x="1840.7109"
-     y="581.992" />
   <rect
      style="fill:#49a93b;fill-opacity:1;stroke:#3b9c93;stroke-width:0.865;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
      id="rect14"
@@ -433,11 +427,11 @@
      y="0"><tspan
        x="5281.4124"
        y="1098.3183"
-       id="tspan3">Open 
+       id="tspan2">Open 
 </tspan><tspan
        x="5251.7484"
        y="1218.3183"
-       id="tspan4">Folder</tspan></text>
+       id="tspan26">Folder</tspan></text>
   <rect
      style="fill:#49a93b;fill-opacity:1;stroke:#3b9c93;stroke-width:0.722425;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
      id="rect14-2"
@@ -454,7 +448,7 @@
      y="0"><tspan
        x="5281.4124"
        y="1098.3183"
-       id="tspan5">Apply</tspan></text>
+       id="tspan27">Apply</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;fill:#2fc468;fill-opacity:1;stroke:#41aba1;stroke-width:0.865;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
@@ -480,7 +474,7 @@
      inkscape:transform-center-y="-2.2330827"><tspan
        x="7399.0645"
        y="572.22649"
-       id="tspan6">Folder</tspan></text>
+       id="tspan46">Folder</tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.2985479,0,0,0.44611631,490.56555,-172.60781)"
@@ -490,7 +484,7 @@
      inkscape:transform-center-y="-2.2330827"><tspan
        x="7399.0645"
        y="572.22649"
-       id="tspan7">Directory contents</tspan></text>
+       id="tspan47">Directory contents</tspan></text>
   <rect
      style="fill:#47a538;fill-opacity:1;stroke:#56c54a;stroke-width:0.886149;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
      id="rect20"
@@ -505,7 +499,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect21);display:inline;fill:#1d3213;fill-opacity:1;stroke:none;stroke-width:3.26929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="7466.584"
        y="558.15813"
-       id="tspan8">subfolder</tspan></text>
+       id="tspan48">subfolder</tspan></text>
   <rect
      style="fill:none;fill-opacity:1;stroke:#56c54a;stroke-width:0.886149;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
      id="rect20-0"
@@ -520,7 +514,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect21-6);display:inline;fill:#589e3c;fill-opacity:1;stroke:none;stroke-width:3.26929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="7466.584"
        y="558.15813"
-       id="tspan9">subfolder</tspan></text>
+       id="tspan49">subfolder</tspan></text>
   <rect
      style="fill:none;fill-opacity:1;stroke:#56c54a;stroke-width:0.886149;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
      id="rect20-5"
@@ -535,7 +529,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect21-61);display:inline;fill:#589e3c;fill-opacity:1;stroke:none;stroke-width:3.26929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="7466.584"
        y="558.15813"
-       id="tspan10">subfolder</tspan></text>
+       id="tspan50">subfolder</tspan></text>
   <rect
      style="fill:none;fill-opacity:1;stroke:#56c54a;stroke-width:0.886149;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
      id="rect20-7"
@@ -550,7 +544,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect21-69);display:inline;fill:#589e3c;fill-opacity:1;stroke:none;stroke-width:3.26929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="7466.584"
        y="558.15813"
-       id="tspan11">subfolder</tspan></text>
+       id="tspan51">subfolder</tspan></text>
   <path
      style="fill:#171b16;fill-opacity:1;stroke:#41aba1;stroke-width:2.83298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
      d="m 68.772428,369.71751 c -2.822356,-1.03722 0,-35.26523 0,-35.26523 h 88.904312 l 47.62732,35.00592"
@@ -585,7 +579,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect22);display:inline;fill:#488220;fill-opacity:1;stroke:#41aba1;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4044.166"
        y="2782.0976"
-       id="tspan12">select</tspan></text>
+       id="tspan52">select</tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.26458333,0,0,0.26458333,811.08091,6.9549713)"
@@ -593,7 +587,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect22-74);display:inline;fill:#488220;fill-opacity:1;stroke:#41aba1;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4044.166"
        y="2782.0976"
-       id="tspan13">select</tspan></text>
+       id="tspan53">select</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;fill:#488220;fill-opacity:1;stroke:#41aba1;stroke-width:2.461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
@@ -637,7 +631,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25);display:inline;fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4191.5117"
        y="3199.1562"
-       id="tspan14">.txt</tspan></text>
+       id="tspan54">.txt</tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.26458333,0,0,0.26458333,-6.3653823,215.49809)"
@@ -645,7 +639,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-481);display:inline;fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4191.5117"
        y="3199.1562"
-       id="tspan15">0</tspan></text>
+       id="tspan55">0</tspan></text>
   <rect
      style="fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:2.461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
      id="rect24-2"
@@ -676,7 +670,7 @@
      inkscape:transform-center-y="-2.2330827"><tspan
        x="7399.0645"
        y="572.22649"
-       id="tspan16">Selected</tspan></text>
+       id="tspan56">Selected</tspan></text>
   <rect
      style="fill:none;fill-opacity:1;stroke:#41aba1;stroke-width:0.865;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
      id="rect17-5-9"
@@ -726,7 +720,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-4);display:inline;fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4191.5117"
        y="3199.1562"
-       id="tspan18">.png</tspan></text>
+       id="tspan57">.png</tspan></text>
   <rect
      style="fill:#49a93b;fill-opacity:1;stroke:#49a93b;stroke-width:2.461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
      id="rect24-6"
@@ -741,7 +735,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-2);display:inline;fill:none;fill-opacity:1;stroke:#122610;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4191.5117"
        y="3199.1562"
-       id="tspan19">.jpg</tspan></text>
+       id="tspan58">.jpg</tspan></text>
   <rect
      style="fill:#49a93b;fill-opacity:1;stroke:#49a93b;stroke-width:6.35769;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
      id="rect24-6-7"
@@ -756,7 +750,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-2-0);display:inline;fill:none;fill-opacity:1;stroke:#122610;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4191.5117"
        y="3199.1562"
-       id="tspan20">Copy to a new folder </tspan></text>
+       id="tspan59">Copy to a new folder </tspan></text>
   <rect
      style="fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:2.461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
      id="rect24-1"
@@ -785,7 +779,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-48);display:inline;fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4191.5117"
        y="3199.1562"
-       id="tspan21">.pdf</tspan></text>
+       id="tspan60">.pdf</tspan></text>
   <rect
      style="fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:6.28277;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
      id="rect24-1-9"
@@ -807,7 +801,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-48-5);display:inline;fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4191.5117"
        y="3199.1562"
-       id="tspan22">Overwrite</tspan></text>
+       id="tspan61">Overwrite</tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.26458333,0,0,0.26458333,770.88511,112.64229)"
@@ -815,7 +809,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-48-0);display:inline;fill:none;fill-opacity:1;stroke:#0d1e0a;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4191.5117"
        y="3199.1562"
-       id="tspan24">123</tspan></text>
+       id="tspan62">123</tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.26458333,0,0,0.26458333,829.48581,112.93508)"
@@ -823,7 +817,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-48-0-0);display:inline;fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4191.5117"
        y="3199.1562"
-       id="tspan25">abc</tspan></text>
+       id="tspan63">abc</tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.26458333,0,0,0.26458333,1334.1414,109.26619)"
@@ -831,7 +825,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-48-0-0-9);display:inline;fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4191.5117"
        y="3199.1562"
-       id="tspan28">0</tspan></text>
+       id="tspan64">0</tspan></text>
   <rect
      style="fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:1.52331;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
      id="rect24-11-8-6-2-3"
@@ -846,7 +840,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-48-0-0-9-8);display:inline;fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4191.5117"
        y="3199.1562"
-       id="tspan29">0</tspan></text>
+       id="tspan65">0</tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.16915373,0,0,0.16915373,2011.7409,548.71651)"
@@ -854,7 +848,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-2-0-0);display:inline;fill:none;fill-opacity:1;stroke:#79ff6b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4191.5117"
        y="3199.1562"
-       id="tspan30">/home/user/folder...</tspan></text>
+       id="tspan66">/home/user/folder...</tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.26458333,0,0,0.26458333,1342.4141,274.41905)"
@@ -862,7 +856,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25-48-0-0-9-2);display:inline;fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4191.5117"
        y="3199.1562"
-       id="tspan31">1</tspan></text>
+       id="tspan67">1</tspan></text>
   <text
      xml:space="preserve"
      transform="scale(0.26458333)"
@@ -870,10 +864,10 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect26);display:inline;fill:#49a93b;fill-opacity:1;stroke:#122610;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4127.1582"
        y="3540.2909"
-       id="tspan33"><tspan
+       id="tspan69"><tspan
          dx="0 52.735981 52.735981 52.735985 52.735977 52.735977 52.735992 52.735962 52.735992 52.735992 52.735962 52.735962 52.736023 52.735962 52.735962 52.736023"
          style="font-size:85.3333px;stroke:#43a93b"
-         id="tspan32">containing words</tspan></tspan></text>
+         id="tspan68">containing words</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.26458333,0,0,0.26458333,-52.849624,-154.08271)"
@@ -881,7 +875,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect27);display:inline;fill:#49a93b;fill-opacity:1;stroke:#43a93b;stroke-width:1.36441;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4326.9062"
        y="4023.748"
-       id="tspan34">containing words</tspan></text>
+       id="tspan70">containing words</tspan></text>
   <rect
      style="fill:none;fill-opacity:1;stroke:#49a93b;stroke-width:2.461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
      id="rect23-1-8"
@@ -896,7 +890,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect27-53);display:inline;fill:#49a93b;fill-opacity:1;stroke:#43a93b;stroke-width:1.36441;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4326.9062"
        y="4023.748"
-       id="tspan35">new name</tspan></text>
+       id="tspan71">new name</tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.26458333,0,0,0.26458333,729.45838,-150.72057)"
@@ -904,7 +898,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect27-53-4);display:inline;fill:#49a93b;fill-opacity:1;stroke:#43a93b;stroke-width:1.36441;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4326.9062"
        y="4023.748"
-       id="tspan36">appendix</tspan></text>
+       id="tspan72">appendix</tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.26458333,0,0,0.26458333,1129.0969,-111.36465)"
@@ -912,7 +906,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect27-53-4-0);display:inline;fill:#49a93b;fill-opacity:1;stroke:#43a93b;stroke-width:1.36441;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4326.9062"
        y="4014.8711"
-       id="tspan37">placeholder</tspan></text>
+       id="tspan73">placeholder</tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.26458333,0,0,0.26458333,753.80998,51.095707)"
@@ -920,7 +914,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect27-53-4-0-3);display:inline;fill:#49a93b;fill-opacity:1;stroke:#43a93b;stroke-width:1.36441;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4326.9062"
        y="4014.8711"
-       id="tspan38">separator</tspan></text>
+       id="tspan74">separator</tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.26458333,0,0,0.26458333,1122.8597,21.836446)"
@@ -928,15 +922,15 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect27-53-4-0-2);display:inline;fill:#49a93b;fill-opacity:1;stroke:#43a93b;stroke-width:1.36441;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4326.9062"
        y="4014.8711"
-       id="tspan39">number of
+       id="tspan75">number of
 </tspan><tspan
        x="4326.9062"
        y="4108.2046"
-       id="tspan40">preceding 
+       id="tspan76">preceding 
 </tspan><tspan
        x="4326.9062"
        y="4201.5381"
-       id="tspan41">characters</tspan></text>
+       id="tspan77">characters</tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.26458333,0,0,0.26458333,-55.167363,-44.368647)"
@@ -944,7 +938,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect27-5);display:inline;fill:#49a93b;fill-opacity:1;stroke:#43a93b;stroke-width:1.36441;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4326.9062"
        y="4023.748"
-       id="tspan42">size</tspan></text>
+       id="tspan78">size</tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.26458333,0,0,0.26458333,-53.101482,-263.72333)"
@@ -952,7 +946,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect27-3);display:inline;fill:#49a93b;fill-opacity:1;stroke:#43a93b;stroke-width:1.36441;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4326.9062"
        y="4023.748"
-       id="tspan43">extensions</tspan></text>
+       id="tspan79">extensions</tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.26458333,0,0,0.26458333,102.10668,-107.00559)"
@@ -960,7 +954,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect27-7);display:inline;fill:#49a93b;fill-opacity:1;stroke:#43a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4326.9062"
        y="4023.748"
-       id="tspan44">containing </tspan></text>
+       id="tspan80">containing </tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.26458333,0,0,0.26458333,-37.977745,-109.91248)"
@@ -968,7 +962,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Hurmit Nerd Font Mono';-inkscape-font-specification:'Hurmit Nerd Font Mono';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect27-77);display:inline;fill:#49a93b;fill-opacity:1;stroke:#43a93b;stroke-width:9.30142;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="4326.9062"
        y="4023.748"
-       id="tspan45">words</tspan></text>
+       id="tspan81">words</tspan></text>
   <path
      style="fill:#171b16;fill-opacity:1;stroke:#41aba1;stroke-width:4.86078;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20.8;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
      d="m 2066.9164,760.05227 -79.7351,-61.33783 h 202.691 l 67.8122,60.01876 z"
