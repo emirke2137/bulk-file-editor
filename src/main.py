@@ -1,11 +1,12 @@
-
+from contentFrame import ContentFrame
 from filesystem import Filesystem
 from areaFrame import AreaFrame
 from optionsFrame import OptionsFrame
 import tkinter as tk
 
 
-
+#internal file and directory managing system
+fs = Filesystem("/home/ropuch/rzeczy")
 
 # Create main window
 root = tk.Tk()
@@ -33,8 +34,11 @@ preview_frame.place(relx=0.4,y=0,relwidth=0.6,relheight=1)
 edit_options_frame.place(anchor='sw',x=0,rely=1,height=300,relwidth=1)
 select_options_frame.place(anchor='sw',x=0,rely=1,height=300,relwidth=1)
 
-
+files_frame = ContentFrame(preview_frame.content,[f.name+f.ext for f in fs.files], "Directory Content")
+files_frame.pack(pady=10,fill="both",expand=True)
 
 if __name__ == "__main__":
-    #root.mainloop()
-    fs = Filesystem("/home/ropuch/rzeczy")
+    
+    root.mainloop()
+    #for f in fs.files:
+        #print(f.name, f.ext,f.size,f.creation_time,f.permissions)
