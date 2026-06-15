@@ -1,19 +1,37 @@
+import os
 import tkinter as tk
+from tkinter import filedialog
+
+from areaFrame import AreaFrame
+from switchFrame import SwitchFrame
 
 
+class OptionsFrame(AreaFrame):
 
-class OptionsFrame(tk.Frame):
-
-    
-
-    def __init__(self, parent,order):
+    def __init__(self, parent,order,name,switches):
         main_color = '#171b16'
         border_color = '#41aba1'
-        self.border = super().__init__(parent,bg=border_color)
+        self.name=name
+        self.switches=switches
+        super().__init__(parent)
+       
+        self.switch_frame_select = SwitchFrame(parent,order,name,self)
+        self.switch_frame_select.place()
+        self.switches[name]=self.switch_frame_select
 
-        self.content = tk.Frame(self, bg=main_color)
-        self.content.place(x=1,y=50,relwidth=1,width=-2,relheight=1,height=-52,anchor="nw")
+
+    def clicked(self):
+        #move other switches back to the default position
+        for x,y in self.switches.items():
+            if(x!=self.name):
+                y.place()
+
+        #move the option frame up
+        self.lift()
         
-        #self.fake_background = tk.Frame(self, bg=main_color)
-        #self.fake_background.place(x=1,y=0,relwidth=1,width=-2,height=48)
+        
 
+      
+
+    
+        
