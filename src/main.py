@@ -33,12 +33,20 @@ navigation_frame.place(x=0,y=0,relwidth=0.4,relheight=1)
 preview_frame.place(relx=0.4,y=0,relwidth=0.6,relheight=1)
 edit_options_frame.place(anchor='sw',x=0,rely=1,height=300,relwidth=1)
 select_options_frame.place(anchor='sw',x=0,rely=1,height=300,relwidth=1)
+#[f.name+f.ext for f in fs.files]
+files_frame = ContentFrame(preview_frame.content,[i for i in range(50)], "Directory Content")
+#height=-180
+files_frame.place(x=10,y=10,relwidth=1,relheight=1,width=-20, height=-180)
+selected_files_frame = ContentFrame(preview_frame.content,[f.name+f.ext for f in fs.files], "Selected Files")
+#selected_files_frame.place(anchor='sw', x=20,rely=1,y=-180,relwidth=1,width=-40, height=200)
+files_frame.pair(select_options_frame)
+selected_files_frame.pair(files_frame)
 
-files_frame = ContentFrame(preview_frame.content,[f.name+f.ext for f in fs.files], "Directory Content")
-files_frame.pack(pady=10,fill="both",expand=True)
+
+confirm_frame = AreaFrame(preview_frame.content)
+confirm_frame.place(anchor='sw',x=10,rely=1,y=-10,height=150,relwidth=1,width=-20)
 
 if __name__ == "__main__":
     
     root.mainloop()
-    #for f in fs.files:
-        #print(f.name, f.ext,f.size,f.creation_time,f.permissions)
+

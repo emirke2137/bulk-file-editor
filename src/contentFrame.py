@@ -4,7 +4,7 @@ class ContentFrame(tk.Frame):
         main_color = '#171b16'
         text_color = '#2fc468'
         border_color = '#2fc468'
-        super().__init__(parent,background=main_color)
+        super().__init__(parent,background='blue')
         self.header_border=tk.Frame(self,background=border_color)
         self.header = tk.Label(self.header_border,
                                 background=main_color, 
@@ -14,9 +14,9 @@ class ContentFrame(tk.Frame):
                                 anchor='w',padx=10)
         self.header_border.place(x=10,y=10,width=420, height=50)
         self.header.pack(fill="both", expand=True, padx=1, pady=1)
-        container=tk.Frame(self, background=main_color)
-        container.place(x=20,y=70,relwidth=1, relheight=1,height=-300, width=-30)
-        self.list = tk.Listbox(container,background=main_color,bd=0,relief="flat",highlightthickness=0)
+        container=tk.Frame(self, background='green')
+        container.place(x=20,y=70,relwidth=1, relheight=1, width=-30,height=-70)
+        self.list = tk.Listbox(container,background='red',bd=0,relief="flat",highlightthickness=0)
         self.scroll = tk.Scrollbar(container, orient="vertical", command=self.list.yview)
         self.scroll.pack(side="right",fill='y')
 
@@ -27,7 +27,7 @@ class ContentFrame(tk.Frame):
             last = float(last)
             print(first,last)
             if first <= 0.0 and last >= 1.0:
-                self.scroll.pack_forget()  # hide
+                self.scroll.pack_forget()  
             else:
                 self.scroll.pack(side="right",fill='y')
 
@@ -44,9 +44,12 @@ class ContentFrame(tk.Frame):
             self.list.insert(tk.END, content_list[i])
             self.list.itemconfig(i,fg=text_color)
 
+    def pair(self,pair):
+        self.pair=pair
+
     
            
-            
+    
         
         
 
