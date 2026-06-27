@@ -4,17 +4,25 @@ from pathlib import Path
 
 
 class Filesystem:
-    def __init__(self,path):
+    def __init__(self):
+        pass
+
+    def get_contents(self,path):
         self.curent_location = path
         self.directories=[]
         self.files=[]
 
 
-        for item in Path(path).iterdir():     
+        for item in Path(path).iterdir():  
+
             if item.is_dir():
-                self.directories.append(item)
+                directory = Directory(
+                    item.stem
+                )
+                self.directories.append(directory)
+
             elif item.is_file():
-                file= File(
+                file = File(
                     item.stem,
                     item.suffix,
                     item.stat().st_size,
@@ -23,13 +31,18 @@ class Filesystem:
                 )
                 self.files.append(file)
 
+
 #togle hidden files manualy
 
 class File:
     def __init__(self,name,ext,size,created,permissions):
-        self.name=name
-        self.ext=ext
-        self.size=size
-        self.creation_time=created
-        self.permissions=permissions
+        self.name = name
+        self.ext = ext
+        self.size = size
+        self.creation_time = created
+        self.permissions = permissions
+
+class Directory:
+    def __init__(self,name):
+        self.name = name
         

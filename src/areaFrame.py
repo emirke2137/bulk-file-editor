@@ -4,7 +4,6 @@ import tkinter as tk
 
 class AreaFrame(tk.Frame):
 
-    
 
     def __init__(self, parent):
         main_color ='#171b16'
