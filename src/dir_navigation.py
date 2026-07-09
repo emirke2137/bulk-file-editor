@@ -55,9 +55,9 @@ class DirNavigation():
                             font=('helvetica',20))
 
 
-        self.canvas = Canvas(self.root,background=main_color)
+        self.canvas = Canvas(self.root,background=main_color,bd=1,highlightthickness=0)
         self.scrollbar = Scrollbar(self.root, orient='vertical', command=self.canvas.yview)
-        self.scrollable_frame = tk.Frame(self.canvas, background=main_color)
+        self.scrollable_frame = tk.Frame(self.canvas, background=main_color, )
 
         def on_enter_button(event):
             self.button.configure(bg=button_text_color,fg=button_color)
@@ -129,23 +129,25 @@ class DirNavigation():
 
                     directory.bind("<Enter>",on_enter_dir)
                     directory.bind("<Leave>",on_leave_dir)
-                    directory.bind("<Button>",goto_directory)
-            
+                    directory.bind("<Button-1>",goto_directory)
             else:
                 self.canvas.place_forget()
                 self.scrollbar.place_forget()
                 self.button_border.place(relx=0.25, rely=0.2,relwidth=0.5,relheight=0.2)
                 self.button.pack(padx=1,pady=1,expand=True,fill='both')
 
+            if len(file_system.files)>0:
+                files.set_items([file.name+file.ext for file in file_system.files])
+
 
 
         self.button.bind("<Enter>",on_enter_button)
         self.button.bind("<Leave>",on_leave_button)
-        self.button.bind("<Button>",show_directories)
+        self.button.bind("<Button-1>",show_directories)
 
         self.browse_button.bind("<Enter>",on_enter_browse)
         self.browse_button.bind("<Leave>",on_leave_browse)
-        self.browse_button.bind("<Button>",show_directories)
+        self.browse_button.bind("<Button-1>",show_directories)
 
 
 
