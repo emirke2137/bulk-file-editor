@@ -110,10 +110,8 @@ class DirNavigation():
                 self.header_name.configure(text=dir_name)
                 self.up_button_border.place(x=10,y=60, width=50, height =50)
                 
-                self.canvas.place(x=10,y=120,width=-20,relwidth=1, height=-130, relheight=1)
-
-                
-                self.scrollbar.place(relx=1,x=-10,y=120,width=10,relheight=1, height=-130)
+                self.canvas.place(x=10,y=120,width=-20,relwidth=1, height=-480,relheight=1 )
+                self.scrollbar.place(relx=1,x=-10,y=120,width=10,relheight=1, height=-480)
                 self.canvas.configure(yscrollcommand=self.scrollbar.set)
                 self.canvas.create_window((70, 0), window=self.scrollable_frame, anchor="nw", width=280)
                 self.scrollable_frame.bind("<Configure>", lambda e: self.canvas.configure(scrollregion=self.canvas.bbox("all")))
@@ -123,7 +121,7 @@ class DirNavigation():
 
                     border=tk.Frame(self.scrollable_frame, background=button_color)
                     border.pack(pady=5, fill='x',expand=True)
-                    directory=tk.Label(border, text=d.name, background=main_color,fg=button_color)
+                    directory=tk.Label(border, text=d.name, background=main_color,fg=button_color,anchor="w")
                     directory.pack(padx=1,pady=1,fill='x',expand=True)
                     self.dirs.append(directory)
 
