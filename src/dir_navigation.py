@@ -4,7 +4,7 @@ from tkinter import Canvas
 from tkinter import Scrollbar
 
 class DirNavigation():
-    def __init__(self,parent,file_system,files):
+    def __init__(self,parent,file_system,files,options):
         button_color = '#49a93b'
         button_text_color = '#053836'
         button_border_color = '#41aba1'
@@ -13,6 +13,7 @@ class DirNavigation():
         text_color = '#2fc468'
         border_color = '#41aba1'
         self.root=parent
+        
         self.path=""
 
         self.button_border=tk.Frame(parent,bg=button_border_color)
@@ -136,6 +137,9 @@ class DirNavigation():
 
             if len(file_system.files)>0:
                 files.set_items([file.name+file.ext for file in file_system.files])
+            
+            print(options.name)
+            options.uptade_content()
 
 
 

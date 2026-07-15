@@ -24,8 +24,8 @@ entry_font = {'font': ('Helvetica', 11)}
 navigation_frame = AreaFrame(root)
 preview_frame = AreaFrame(root)
 switches={}
-select_options_frame = OptionsFrame(navigation_frame,0,"select",switches)
-edit_options_frame = OptionsFrame(navigation_frame,1,"edit",switches)
+select_options_frame = OptionsFrame(navigation_frame,0,"select",switches,fs)
+edit_options_frame = OptionsFrame(navigation_frame,1,"edit",switches,fs)
 select_options_frame.switch_frame_select.clicked()
 
 navigation_frame.place(x=0,y=0,relwidth=0.4,relheight=1)
@@ -49,7 +49,7 @@ confirm_frame = AreaFrame(preview_frame.content)
 confirm_frame.place(anchor='sw',x=10,rely=1,y=-10,height=150,relwidth=1,width=-20)
 
 
-navigation = DirNavigation(navigation_frame.content, fs, files_frame)
+navigation = DirNavigation(navigation_frame.content, fs, files_frame,select_options_frame)
 if __name__ == "__main__":
     
     root.mainloop()

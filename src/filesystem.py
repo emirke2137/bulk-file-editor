@@ -5,13 +5,13 @@ from pathlib import Path
 
 class Filesystem:
     def __init__(self):
-        pass
+        self.extensions_set=set()
 
     def get_contents(self,path):
         self.curent_location = path
         self.directories=[]
         self.files=[]
-
+        
 
         for item in Path(path).iterdir():  
 
@@ -29,7 +29,10 @@ class Filesystem:
                     item.stat().st_ctime,
                     filemode(item.stat().st_mode)
                 )
+                self.extensions_set.add(item.suffix)
                 self.files.append(file)
+
+            
 
 
 #togle hidden files manualy

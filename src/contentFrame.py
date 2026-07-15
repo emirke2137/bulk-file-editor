@@ -50,15 +50,14 @@ class ContentFrame(tk.Frame):
                 if self.pair.border==None:
                     self.pair.place(anchor='sw', x=20,rely=1,y=-170,relwidth=1,width=-40, height=80)
                     self.place_configure(height=-260)
-                    print('no')
                 else:
-                    print('es')
+                    
                     self.pair.border.place(anchor='sw', x=20,rely=1,y=-170,relwidth=1,width=-40, height=80)
                     self.pair.pack(padx=1,pady=1,fill="both", expand=True)
 
             self.pair.list.delete(0,tk.END)
             for i in range(len(selected)):
-                print(i,selected[i])
+                
                 self.pair.list.insert(tk.END, self.items[selected[i]])
                 self.pair.list.itemconfig(i,fg=self.text_color)
                 self.place_configure(height=-(260+i*20))
@@ -89,16 +88,12 @@ class ContentFrame(tk.Frame):
         self.scrollable_frame.bind("<Configure>", lambda e: self.canvas.configure(scrollregion=self.canvas.bbox("all")))
 
         for i in range(len(list)):
-            print(list[i])
             
+        
             elem=tk.Label(self.scrollable_frame, text=list[i],fg=self.border_color,background=self.main_color,anchor="w")
             elem.pack(padx=1,pady=1,fill='x')
             self.items_obj.append(elem)
             
-            
-        print(len(self.scrollable_frame.winfo_children()))
-        print(self.scrollable_frame.winfo_reqheight())
-        print(self.canvas.bbox("all"))
 
     def clear_items(self):
         [child.destroy() for child in self.scrollable_frame.winfo_children()]
