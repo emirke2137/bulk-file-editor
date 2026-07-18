@@ -94,23 +94,25 @@ class DirNavigation():
 
             files.set_items([x.name for x in file_system.files])
 
+            self.button.pack_forget()
+            self.button_border.place_forget()
+
+            [child.destroy() for child in self.scrollable_frame.winfo_children()]
+            self.browse_button_border.place(x=10,y=10,relwidth=1, width=-20, height=40)
+            self.browse_button.pack(fill='both',expand=True, padx=1,pady=1)
+
+            self.header_border.place(x=70,y=60,relwidth=1, width=-80, height=50)
+            self.background.pack(fill="both", expand=True, padx=1, pady=1)
+            self.header_path.pack(fill="both", expand=True, padx=1, pady=1)
+            self.header_name.pack(fill="both", expand=True, padx=1, pady=1)
+            print(path,dir_name)
+            self.header_path.configure(text=path)
+            self.header_name.configure(text=dir_name)
+            self.up_button_border.place(x=10,y=60, width=50, height =50)
+
             if len(file_system.directories)>0:
 
-                self.button.pack_forget()
-                self.button_border.place_forget()
-
-                [child.destroy() for child in self.scrollable_frame.winfo_children()]
-                self.browse_button_border.place(x=10,y=10,relwidth=1, width=-20, height=40)
-                self.browse_button.pack(fill='both',expand=True, padx=1,pady=1)
-
-                self.header_border.place(x=70,y=60,relwidth=1, width=-80, height=50)
-                self.background.pack(fill="both", expand=True, padx=1, pady=1)
-                self.header_path.pack(fill="both", expand=True, padx=1, pady=1)
-                self.header_name.pack(fill="both", expand=True, padx=1, pady=1)
-                self.header_path.configure(text=path)
-                self.header_name.configure(text=dir_name)
-                self.up_button_border.place(x=10,y=60, width=50, height =50)
-                
+            
                 self.canvas.place(x=10,y=120,width=-20,relwidth=1, height=-480,relheight=1 )
                 self.scrollbar.place(relx=1,x=-10,y=120,width=10,relheight=1, height=-480)
                 self.canvas.configure(yscrollcommand=self.scrollbar.set)
@@ -138,7 +140,7 @@ class DirNavigation():
             if len(file_system.files)>0:
                 files.set_items([file.name+file.ext for file in file_system.files])
             
-            print(options.name)
+            
             options.uptade_content()
 
 

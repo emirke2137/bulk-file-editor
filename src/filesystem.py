@@ -6,11 +6,14 @@ from pathlib import Path
 class Filesystem:
     def __init__(self):
         self.extensions_set=set()
+        self.max_size=0
 
     def get_contents(self,path):
         self.curent_location = path
         self.directories=[]
         self.files=[]
+        self.extensions_set=set()
+        self.max_size=0
         
 
         for item in Path(path).iterdir():  
@@ -31,6 +34,8 @@ class Filesystem:
                 )
                 self.extensions_set.add(item.suffix)
                 self.files.append(file)
+                if item.stat().st_size>self.max_size:
+                    self.max_size=item.stat().st_size
 
             
 

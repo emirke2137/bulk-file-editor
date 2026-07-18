@@ -13,10 +13,19 @@ class OptionsFrame(AreaFrame):
         self.main_color = '#171b16'
         self.border_color = '#41aba1'
         self.text_color = '#49a93b'
+        self.highlight_color = '#c7faa7'
+        self.font=('helvetica',16)
         self.name=name
         self.switches=switches
         self.selected_extensions=set()
         self.input_words=[]
+        self.conversion={
+            "kB":1000,
+            "mB":1000000,
+            "gB":1000000000
+        }
+        self.selected_unit="kB"
+        self.size_range=[0,0]
         self.filesystem=filesystem
         super().__init__(parent)
        
@@ -30,7 +39,7 @@ class OptionsFrame(AreaFrame):
 
         if name=='select':
 
-            label_extensions=tk.Label(self.content,text='extensions',anchor='w',background=self.main_color,fg=self.text_color,font=('helvetica',16))
+            label_extensions=tk.Label(self.content,text='extensions',anchor='w',background=self.main_color,fg=self.text_color,font=self.font)
             label_extensions.pack(padx=10,pady=10,fill='x')
             container_border_extensions=tk.Frame(self.content,bg=self.text_color,)
             container_border_extensions.pack(padx=10,pady=10,fill='x')
@@ -38,26 +47,92 @@ class OptionsFrame(AreaFrame):
             self.container_extensions.pack(padx=1,pady=1,fill='x')          
            
 
-
-            label_words=tk.Label(self.content,text='containing words',anchor='w',background=self.main_color,fg=self.text_color,font=('helvetica',16))
+            label_words=tk.Label(self.content,text='containing words',anchor='w',background=self.main_color,fg=self.text_color,font=self.font)
             label_words.pack(padx=10,pady=10,fill='x')
             container_border_words=tk.Frame(self.content,bg=self.text_color)
             container_border_words.pack(padx=10,pady=10,fill='x')
             container_words=tk.Frame(container_border_words,bg=self.main_color)
             container_words.pack(padx=1,pady=1,fill='x')
-            self.text_field=tk.Text(container_words,font=('helvetica',16),bg=self.main_color,fg=self.text_color,height=1)
+            self.text_field=tk.Text(container_words,font=self.font,bg=self.main_color,fg=self.text_color,height=1)
             self.text_field.pack(side='left',fill='x',expand=True)
             def get_word(event):
-                text = self.text_field.get("1.0","end-1c")
-                print(text)
+                text = self.text_field.get("1.0",tk.END)
             self.text_field.bind("<space>",get_word)
 
-            label_size=tk.Label(self.content,text='containing size',anchor='w',background=self.main_color,fg=self.text_color,font=('helvetica',16))
+
+            label_size=tk.Label(self.content,text='size',anchor='w',background=self.main_color,fg=self.text_color,font=self.font)
             label_size.pack(padx=10,pady=10,fill='x')
-            container_border_size=tk.Frame(self.content,bg=self.text_color)
-            container_border_size.pack(padx=10,pady=10,fill='x')
-            container_size=tk.Frame(container_border_size,bg=self.main_color)
-            container_size.pack(padx=1,pady=1,fill='x')
+            container_border_min=tk.Frame(self.content,bg=self.text_color)
+            container_border_min.pack(side='left',padx=10,pady=10,)
+            tk.Label(self.content,text=" - ", bg=self.main_color,fg=self.text_color,font=self.font).pack(side='left',padx=1,pady=1,)
+
+            container_border_max=tk.Frame(self.content,bg=self.text_color)
+            container_border_max.pack(side='left',padx=10,pady=10,)
+            self.container_min=tk.Text(container_border_min,bg=self.main_color,fg=self.text_color,height=1,width=8)
+            self.container_min.pack(padx=1,pady=1)
+            self.container_max=tk.Text(container_border_max,bg=self.main_color,fg=self.text_color,height=1,width=8)
+            self.container_max.pack(padx=1,pady=1)
+            self.container_min.insert('1.0','0')
+            self.container_max.insert('1.0','0')
+            option_kb_border=tk.Frame(self.content,bg=self.text_color)
+            option_kb_border.pack(side='left',padx=10,pady=10,)
+            self.option_kb=tk.Label(option_kb_border,text="kB",bg=self.highlight_color,fg=self.text_color,font=('helvetica',12))
+            self.option_kb.pack(padx=1,pady=1)
+            option_mb_border=tk.Frame(self.content,bg=self.text_color)
+            option_mb_border.pack(side='left',padx=10,pady=10,)
+            self.option_mb=tk.Label(option_mb_border,text="mB",bg=self.main_color,fg=self.text_color,font=('helvetica',12))
+            self.option_mb.pack(padx=1,pady=1)
+            option_gb_border=tk.Frame(self.content,bg=self.text_color)
+            option_gb_border.pack(side='left',padx=10,pady=10,)
+            self.option_gb=tk.Label(option_gb_border,text="gB",bg=self.main_color,fg=self.text_color,font=('helvetica',12))
+            self.option_gb.pack(padx=1,pady=1)
+            
+            def on_enter_field(event):
+                event.widget.configure(bg=self.text_color,fg=self.main_color)
+            def on_leave_field(event):
+                if event.widget.cget("text") ==self.selected_unit:
+                    event.widget.configure(bg=self.highlight_color,fg=self.text_color)
+                else:
+                    event.widget.configure(bg=self.main_color,fg=self.text_color)
+            def on_pick(event):
+                self.option_kb.configure(bg=self.main_color,fg=self.text_color)
+                self.option_mb.configure(bg=self.main_color,fg=self.text_color)
+                self.option_gb.configure(bg=self.main_color,fg=self.text_color)
+                self.selected_unit = event.widget.cget("text")
+                
+                self.size_range[0]=int(self.container_min.get('1.0',tk.END))*self.conversion[self.selected_unit]
+                self.size_range[1]=int(self.container_max.get('1.0',tk.END))*self.conversion[self.selected_unit]
+                
+
+            def on_min_modified(event):
+                
+                value = self.container_min.get("1.0", "end-1c")
+                if value.isdigit():
+                    self.size_range[0]=int(value)*self.conversion[self.selected_unit]
+                else:
+                    self.container_min.delete("end-2c", "end-1c")
+                
+
+            def on_max_modified(event):
+                value = self.container_max.get("1.0", "end-1c")
+                if value.isdigit():
+                    self.size_range[1]=int(value)*self.conversion[self.selected_unit]
+                else:
+                    print(self.size_range)
+                
+
+            self.option_kb.bind("<Enter>",on_enter_field)
+            self.option_kb.bind("<Leave>",on_leave_field)
+            self.option_kb.bind("<Button-1>",on_pick)
+            self.option_mb.bind("<Enter>",on_enter_field)
+            self.option_mb.bind("<Leave>",on_leave_field)
+            self.option_mb.bind("<Button-1>",on_pick)
+            self.option_gb.bind("<Enter>",on_enter_field)
+            self.option_gb.bind("<Leave>",on_leave_field)
+            self.option_gb.bind("<Button-1>",on_pick)
+            self.container_min.bind("<KeyRelease>", on_min_modified)
+            self.container_max.bind("<KeyRelease>", on_max_modified)
+
         elif name=='edit':
             pass
 
@@ -75,17 +150,22 @@ class OptionsFrame(AreaFrame):
         def on_enter_field(event):
             event.widget.configure(bg=self.text_color,fg=self.main_color)
         def on_leave_field(event):
-            event.widget.configure(bg=self.main_color,fg=self.text_color)
+            if event.widget.cget("text") in self.selected_extensions:
+                event.widget.configure(bg=self.highlight_color,fg=self.text_color)
+            else:
+                event.widget.configure(bg=self.main_color,fg=self.text_color)
         def add_extension(event):
             extension=event.widget.cget("text")
             if extension in self.selected_extensions:   
                 self.selected_extensions.remove(extension)
+                event.widget.configure(bg=self.main_color,fg=self.text_color)
             else:
                 self.selected_extensions.add(extension)
+                event.widget.configure(bg=self.highlight_color,fg=self.text_color)
 
-
+        [child.destroy() for child in self.container_extensions.winfo_children()]
         for ext in self.filesystem.extensions_set:
-            print(ext)
+            
             border = tk.Frame(self.container_extensions,bg=self.text_color)
             extenstion_label=tk.Label(border,text=ext,font=('helvetica',14),bg=self.main_color,fg=self.text_color)
             extenstion_label.bind("<Enter>",on_enter_field)
@@ -94,9 +174,8 @@ class OptionsFrame(AreaFrame):
 
             extenstion_label.pack(padx=1,pady=1)
             border.pack(side = 'left')
-
-
-      
+            
+        
 
     
-        
+    #def calculate_size():
