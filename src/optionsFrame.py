@@ -9,7 +9,7 @@ from switchFrame import SwitchFrame
 
 class OptionsFrame(AreaFrame):
 
-    def __init__(self, parent,order,name,switches,filesystem):
+    def __init__(self, parent,order,name,switches,filesystem,files_frame=None):
         self.main_color = '#171b16'
         self.border_color = '#41aba1'
         self.text_color = '#49a93b'
@@ -18,7 +18,7 @@ class OptionsFrame(AreaFrame):
         self.name=name
         self.switches=switches
         self.selected_extensions=set()
-        self.input_words=[]
+        self.input_words=set()
         self.conversion={
             "kB":1000,
             "mB":1000000,
@@ -27,6 +27,7 @@ class OptionsFrame(AreaFrame):
         self.selected_unit="kB"
         self.size_range=[0,0]
         self.filesystem=filesystem
+        self.files_frame=files_frame
         super().__init__(parent)
        
         self.switch_frame_select = SwitchFrame(parent,order,name,self)
@@ -55,8 +56,12 @@ class OptionsFrame(AreaFrame):
             container_words.pack(padx=1,pady=1,fill='x')
             self.text_field=tk.Text(container_words,font=self.font,bg=self.main_color,fg=self.text_color,height=1)
             self.text_field.pack(side='left',fill='x',expand=True)
+            
             def get_word(event):
-                text = self.text_field.get("1.0",tk.END)
+                self.input_words = set(self.text_field.get("1.0",tk.END).split())
+                self.update_selection()
+                print(self.input_words)
+
             self.text_field.bind("<space>",get_word)
 
 
@@ -102,23 +107,27 @@ class OptionsFrame(AreaFrame):
                 
                 self.size_range[0]=int(self.container_min.get('1.0',tk.END))*self.conversion[self.selected_unit]
                 self.size_range[1]=int(self.container_max.get('1.0',tk.END))*self.conversion[self.selected_unit]
-                
+                self.update_selection()
 
             def on_min_modified(event):
                 
                 value = self.container_min.get("1.0", "end-1c")
                 if value.isdigit():
                     self.size_range[0]=int(value)*self.conversion[self.selected_unit]
+                    self.update_selection()
                 else:
                     self.container_min.delete("end-2c", "end-1c")
+                
                 
 
             def on_max_modified(event):
                 value = self.container_max.get("1.0", "end-1c")
                 if value.isdigit():
                     self.size_range[1]=int(value)*self.conversion[self.selected_unit]
+                    self.update_selection()
                 else:
-                    print(self.size_range)
+                    self.container_max.delete("end-2c", "end-1c")
+                
                 
 
             self.option_kb.bind("<Enter>",on_enter_field)
@@ -159,9 +168,11 @@ class OptionsFrame(AreaFrame):
             if extension in self.selected_extensions:   
                 self.selected_extensions.remove(extension)
                 event.widget.configure(bg=self.main_color,fg=self.text_color)
+                self.update_selection()
             else:
                 self.selected_extensions.add(extension)
                 event.widget.configure(bg=self.highlight_color,fg=self.text_color)
+                self.update_selection()
 
         [child.destroy() for child in self.container_extensions.winfo_children()]
         for ext in self.filesystem.extensions_set:
@@ -174,8 +185,16 @@ class OptionsFrame(AreaFrame):
 
             extenstion_label.pack(padx=1,pady=1)
             border.pack(side = 'left')
-            
-        
 
+        
+        if self.size_range[1]==0:
+            self.size_range[1]=self.filesystem.max_size
+            self.container_max.delete("1.0", tk.END)
+            self.container_max.insert("1.0",self.filesystem.max_size//self.conversion[self.selected_unit]+1)
+
+
+    def update_selection(self):
+        selected=self.filesystem.filter(self.selected_extensions,self.input_words,self.size_range)
+        self.files_frame.update_selection(selected)
     
-    #def calculate_size():
+  

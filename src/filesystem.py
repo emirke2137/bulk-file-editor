@@ -38,6 +38,31 @@ class Filesystem:
                     self.max_size=item.stat().st_size
 
             
+    def filter(self, ext_set=set(), word_set=set(), size=[]):
+        selected=[]
+        print(ext_set,word_set,size)
+        for file in self.files:
+            
+            if (bool(ext_set) and file.ext in ext_set) or (not bool(ext_set)):
+                print("1", file.ext)
+                if (size and file.size>size[0] and file.size<size[1]) or (not size):
+                    print("2", file.size)
+                    if not bool(word_set):
+                        selected.append(file.name+file.ext)
+                    else:
+                        found=False
+                        for word in file.name.split():
+                            if word in word_set:
+                                found=True
+
+                        if found:
+                            selected.append(file.name+file.ext)
+        
+        return selected
+                
+            
+
+
 
 
 #togle hidden files manualy
