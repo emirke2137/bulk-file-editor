@@ -52,17 +52,37 @@ class OptionsFrame(AreaFrame):
             label_words.pack(padx=10,pady=10,fill='x')
             container_border_words=tk.Frame(self.content,bg=self.text_color)
             container_border_words.pack(padx=10,pady=10,fill='x')
-            container_words=tk.Frame(container_border_words,bg=self.main_color)
-            container_words.pack(padx=1,pady=1,fill='x')
-            self.text_field=tk.Text(container_words,font=self.font,bg=self.main_color,fg=self.text_color,height=1)
+            self.container_words=tk.Frame(container_border_words,bg=self.main_color)
+            self.container_words.pack(padx=1,pady=1,fill='x')
+            self.text_field=tk.Text(self.container_words,font=self.font,bg=self.main_color,fg=self.text_color,height=1)
             self.text_field.pack(side='left',fill='x',expand=True)
             
             def get_word(event):
-                self.input_words = set(self.text_field.get("1.0",tk.END).split())
-                self.update_selection()
-                print(self.input_words)
+                word = self.text_field.get("1.0",tk.END).strip()
+                if word=='':
+                    pass
+                else:
+                    self.input_words.add(word)
+                    self.text_field.delete("1.0",tk.END)
+                    self.text_field.pack_forget()
+                    word_border=tk.Frame(self.container_words,bg=self.text_color)
+                    word_border.pack(side='left', padx=2,pady=1)
+                    word_label= tk.Label(word_border, text=word, bg=self.main_color, fg=self.text_color)
+                    word_label.pack(padx=1,pady=1)
+                    self.text_field.pack(side='left',fill='x',expand=True)
+
+                    def remove_word(event):
+                        self.input_words.remove(event.widget.cget("text"))
+                        event.widget.master.pack_forget()
+                        event.widget.pack_forget()
+                        self.update_selection()
+
+                    word_label.bind("<Button-1>",remove_word)
+                    self.update_selection()
+                    print(self.input_words)
 
             self.text_field.bind("<space>",get_word)
+            self.text_field.bind("<Return>",get_word)
 
 
             label_size=tk.Label(self.content,text='size',anchor='w',background=self.main_color,fg=self.text_color,font=self.font)

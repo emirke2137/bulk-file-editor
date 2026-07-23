@@ -53,6 +53,4 @@ if __name__ == "__main__":
 
 
 
-#searching by word
-#spliting name only by spaces -> use regex?
-#words only confirmed by space
+

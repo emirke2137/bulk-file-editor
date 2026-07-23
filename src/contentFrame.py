@@ -28,7 +28,6 @@ class ContentFrame(tk.Frame):
         self.scroll = tk.Scrollbar(parent, orient="vertical", command=self.canvas.yview,width=5)
         self.scrollable_frame = tk.Frame(self.canvas, background=self.main_color)
         
-        
         #------------------------------------
         #custom scroll command to show scrollball only when needed
         def auto_scrollbar(first, last):
@@ -46,9 +45,6 @@ class ContentFrame(tk.Frame):
         
     def update_selection(self,selected):
         print(selected)
-        #calculate size based on n of items,
-        #max size =400
-        #16px na item?
         
         if selected:
             self.pair.set_selected(selected)
@@ -73,6 +69,8 @@ class ContentFrame(tk.Frame):
 
             self.canvas.configure(yscrollcommand=auto_scrollbar,bg=self.main_color)
             self.canvas.place_configure(height=-240)
+
+
                 
     def pair(self,pair):
         self.pair=pair
@@ -106,8 +104,8 @@ class ContentFrame(tk.Frame):
     def set_selected(self,list):
 
         #space needed for canvas based on the number of items
-        size=min(len(list)*20,320)
-
+        size=min(len(list)*24,320)
+    
         #dynamic scrollbar for selected files - only show when needed
         def auto_scrollbar2(first, last):
             #confirm box height + margins + selected files frame height 

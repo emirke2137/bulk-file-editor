@@ -39,7 +39,7 @@ class Filesystem:
 
             
     def filter(self, ext_set=set(), word_set=set(), size=[]):
-        selected=[]
+        selected=set()
         print(ext_set,word_set,size)
         for file in self.files:
             
@@ -48,17 +48,13 @@ class Filesystem:
                 if (size and file.size>size[0] and file.size<size[1]) or (not size):
                     print("2", file.size)
                     if not bool(word_set):
-                        selected.append(file.name+file.ext)
-                    else:
-                        found=False
-                        for word in file.name.split():
-                            if word in word_set:
-                                found=True
-
-                        if found:
-                            selected.append(file.name+file.ext)
+                        selected.add(file.name+file.ext)
+                    else:                        
+                        for word in word_set:
+                            if word in file.name:
+                                selected.add(file.name+file.ext)
         
-        return selected
+        return list(selected)
                 
             
 
