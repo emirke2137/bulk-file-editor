@@ -44,7 +44,7 @@ class OptionsFrame(AreaFrame):
             label_extensions.pack(padx=10,pady=10,fill='x')
             container_border_extensions=tk.Frame(self.content,bg=self.text_color,)
             container_border_extensions.pack(padx=10,pady=10,fill='x')
-            self.container_extensions=tk.Frame(container_border_extensions,bg=self.main_color,height=30)
+            self.container_extensions=tk.Frame(container_border_extensions,bg=self.main_color,height=25)
             self.container_extensions.pack(padx=1,pady=1,fill='x')          
            
 
@@ -163,7 +163,46 @@ class OptionsFrame(AreaFrame):
             self.container_max.bind("<KeyRelease>", on_max_modified)
 
         elif name=='edit':
-            pass
+            label_name=tk.Label(self.content,text='base name',anchor='w',background=self.main_color,fg=self.text_color,font=self.font)
+            label_name.pack(padx=10,pady=10,fill='x')
+            container_border_name=tk.Frame(self.content,bg=self.text_color,)
+            container_border_name.pack(padx=10,pady=10,fill='x')
+            self.name_field=tk.Text(container_border_name,font=self.font,bg=self.main_color,fg=self.text_color,height=1)
+            self.name_field.pack(padx=1,pady=1,side='left',fill='x',expand=True)
+
+
+            label_appendix=tk.Label(self.content,text='appendix',anchor='w',background=self.main_color,fg=self.text_color,font=self.font)
+            label_appendix.pack(padx=10,pady=10,fill='x')
+            container_appendix = tk.Frame(self.content,bg=self.main_color)
+            border_123 = tk.Frame(container_appendix,bg=self.text_color,)
+            border_abc = tk.Frame(container_appendix,bg=self.text_color,)
+            appendix_123=tk.Label(border_123,text="123",background=self.main_color,fg=self.text_color,font=self.font)
+            appendix_abc=tk.Label(border_abc,text="abc",background=self.main_color,fg=self.text_color,font=self.font)
+            container_appendix.pack(padx=10,pady=5,fill='x')
+            border_123.pack(side="left", padx=10, pady=1)
+            border_abc.pack(side="left", padx=20, pady=1)
+            appendix_123.pack(padx=1,pady=1)
+            appendix_abc.pack(padx=1,pady=1)
+            container_appendix2 = tk.Frame(self.content,bg=self.main_color)
+            label_separator=tk.Label(container_appendix2,text='separator',anchor='w',background=self.main_color,fg=self.text_color,font=("helvetica",12))
+            text_separator=tk.Text(container_appendix2,bg=self.main_color,fg=self.text_color,height=1,width=8)
+            label_size=tk.Label(container_appendix2,text='size',anchor='w',background=self.main_color,fg=self.text_color,font=("helvetica",12))
+            text_size=tk.Text(container_appendix2,bg=self.main_color,fg=self.text_color,height=1,width=8)
+            container_appendix2.pack(padx=10,pady=10,fill='x')
+            label_separator.pack(side="left",padx=10,pady=1)
+            text_separator.pack(side="left",padx=5,pady=1)
+            label_size.pack(side="left",padx=20,pady=1)
+            text_size.pack(side="left",padx=5,pady=1)
+
+
+            label_preview=tk.Label(self.content,text='preview',anchor='w',background=self.main_color,fg=self.text_color,font=self.font)
+            border_preview=tk.Frame(self.content,bg=self.text_color,)
+            preview=tk.Label(border_preview,text='',anchor='w',background=self.main_color,fg=self.text_color,font=self.font)
+            label_preview.pack(side='left',padx=10,pady=10)
+            border_preview.pack(side='left',padx=10,pady=10,fill='x',expand=True)
+            preview.pack(padx=1,pady=1,fill='x',expand=True)
+            
+
 
 
     def clicked(self):
