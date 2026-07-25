@@ -26,6 +26,9 @@ class OptionsFrame(AreaFrame):
         }
         self.selected_unit="kB"
         self.size_range=[0,0]
+        self.type="123"
+        self.delimeter="-"
+        self.appendix_size=2
         self.filesystem=filesystem
         self.files_frame=files_frame
         super().__init__(parent)
@@ -35,7 +38,13 @@ class OptionsFrame(AreaFrame):
         self.switches[name]=self.switch_frame_select
 
         
-
+        def on_enter_field(event):
+            event.widget.configure(bg=self.text_color,fg=self.main_color)
+        def on_leave_field(event):
+            if event.widget.cget("text") ==self.selected_unit:
+                event.widget.configure(bg=self.highlight_color,fg=self.text_color)
+            else:
+                event.widget.configure(bg=self.main_color,fg=self.text_color)
 
 
         if name=='select':
@@ -112,13 +121,7 @@ class OptionsFrame(AreaFrame):
             self.option_gb=tk.Label(option_gb_border,text="gB",bg=self.main_color,fg=self.text_color,font=('helvetica',12))
             self.option_gb.pack(padx=1,pady=1)
             
-            def on_enter_field(event):
-                event.widget.configure(bg=self.text_color,fg=self.main_color)
-            def on_leave_field(event):
-                if event.widget.cget("text") ==self.selected_unit:
-                    event.widget.configure(bg=self.highlight_color,fg=self.text_color)
-                else:
-                    event.widget.configure(bg=self.main_color,fg=self.text_color)
+            
             def on_pick(event):
                 self.option_kb.configure(bg=self.main_color,fg=self.text_color)
                 self.option_mb.configure(bg=self.main_color,fg=self.text_color)
@@ -163,44 +166,70 @@ class OptionsFrame(AreaFrame):
             self.container_max.bind("<KeyRelease>", on_max_modified)
 
         elif name=='edit':
+         
             label_name=tk.Label(self.content,text='base name',anchor='w',background=self.main_color,fg=self.text_color,font=self.font)
             label_name.pack(padx=10,pady=10,fill='x')
             container_border_name=tk.Frame(self.content,bg=self.text_color,)
             container_border_name.pack(padx=10,pady=10,fill='x')
             self.name_field=tk.Text(container_border_name,font=self.font,bg=self.main_color,fg=self.text_color,height=1)
             self.name_field.pack(padx=1,pady=1,side='left',fill='x',expand=True)
+            def get_name(event):
+                name = self.name_field.get("1.0",tk.END).strip()
+                if name[-1] in [';',':','`','?','!',',','.','/','|','@','#','$','%','&','*','=','~','<','>','[',']','{','}','(',')']:
+                    self.name_field.delete("end-2c", "end-1c")
+                else:
+                    self.update_basename()
+
+            self.name_field.bind('<KeyRelease>',get_name)
 
 
             label_appendix=tk.Label(self.content,text='appendix',anchor='w',background=self.main_color,fg=self.text_color,font=self.font)
             label_appendix.pack(padx=10,pady=10,fill='x')
-            container_appendix = tk.Frame(self.content,bg=self.main_color)
-            border_123 = tk.Frame(container_appendix,bg=self.text_color,)
-            border_abc = tk.Frame(container_appendix,bg=self.text_color,)
-            appendix_123=tk.Label(border_123,text="123",background=self.main_color,fg=self.text_color,font=self.font)
-            appendix_abc=tk.Label(border_abc,text="abc",background=self.main_color,fg=self.text_color,font=self.font)
-            container_appendix.pack(padx=10,pady=5,fill='x')
-            border_123.pack(side="left", padx=10, pady=1)
-            border_abc.pack(side="left", padx=20, pady=1)
-            appendix_123.pack(padx=1,pady=1)
-            appendix_abc.pack(padx=1,pady=1)
+            
             container_appendix2 = tk.Frame(self.content,bg=self.main_color)
             label_separator=tk.Label(container_appendix2,text='separator',anchor='w',background=self.main_color,fg=self.text_color,font=("helvetica",12))
-            text_separator=tk.Text(container_appendix2,bg=self.main_color,fg=self.text_color,height=1,width=8)
+            self.text_delimeter=tk.Text(container_appendix2,bg=self.main_color,fg=self.text_color,height=1,width=8)
             label_size=tk.Label(container_appendix2,text='size',anchor='w',background=self.main_color,fg=self.text_color,font=("helvetica",12))
-            text_size=tk.Text(container_appendix2,bg=self.main_color,fg=self.text_color,height=1,width=8)
+            self.text_size=tk.Text(container_appendix2,bg=self.main_color,fg=self.text_color,height=1,width=8)
             container_appendix2.pack(padx=10,pady=10,fill='x')
             label_separator.pack(side="left",padx=10,pady=1)
-            text_separator.pack(side="left",padx=5,pady=1)
+            self.text_delimeter.pack(side="left",padx=5,pady=1)
             label_size.pack(side="left",padx=20,pady=1)
-            text_size.pack(side="left",padx=5,pady=1)
+            self.text_size.pack(side="left",padx=5,pady=1)
+
+            self.text_delimeter.insert("1.0","-")
+            self.text_size.insert("1.0","2")
+            
+            def set_appendix_type(event):
+                self.type=event.widget.cget("text")
+                self.update_basename()
+
+            def get_appendix_delimeter(event):
+                self.delimeter=self.text_delimeter.get("1.0",tk.END).strip()
+                self.update_basename()
+                #what symbosl not to use???
+
+            def get_appendix_size(event):
+                value=self.text_size.get("1.0",tk.END).strip()
+                if value.isdigit():
+                    self.appendix_size=int(value)
+                    self.update_basename()
+                else:
+                    self.text_size.delete("end-2c", "end-1c")
+                
+            
+
+            self.text_delimeter.bind('<KeyRelease>',get_appendix_delimeter)
+            self.text_size.bind('<KeyRelease>',get_appendix_size)
+
 
 
             label_preview=tk.Label(self.content,text='preview',anchor='w',background=self.main_color,fg=self.text_color,font=self.font)
             border_preview=tk.Frame(self.content,bg=self.text_color,)
-            preview=tk.Label(border_preview,text='',anchor='w',background=self.main_color,fg=self.text_color,font=self.font)
+            self.preview=tk.Label(border_preview,text='',anchor='w',background=self.main_color,fg=self.text_color,font=self.font)
             label_preview.pack(side='left',padx=10,pady=10)
             border_preview.pack(side='left',padx=10,pady=10,fill='x',expand=True)
-            preview.pack(padx=1,pady=1,fill='x',expand=True)
+            self.preview.pack(padx=1,pady=1,fill='x',expand=True)
             
 
 
@@ -257,3 +286,16 @@ class OptionsFrame(AreaFrame):
         self.files_frame.update_selection(selected)
     
   
+    def update_basename(self):
+        name=self.name_field.get("1.0",tk.END).strip() + self.delimeter
+        if self.appendix_size>1:
+            for i in range(self.appendix_size-1):
+                name+="0"
+             
+        if self.type =="123":
+            name+="1"
+        else:
+            name+="a"
+        
+        self.preview.configure(text=name)
+        
