@@ -27,7 +27,6 @@ class OptionsFrame(AreaFrame):
         self.selected_unit="kB"
         self.size_range=[0,0]
         self.type="123"
-        self.delimeter="-"
         self.appendix_size=2
         self.filesystem=filesystem
         self.files_frame=files_frame
@@ -205,9 +204,13 @@ class OptionsFrame(AreaFrame):
                 self.update_basename()
 
             def get_appendix_delimeter(event):
+                sep = self.text_delimeter.get("1.0",tk.END).strip()
+                if sep[-1] in [';',':','`','?','!',',','.','/','|','@','#','$','%','&','*','=','~','<','>','[',']','{','}','(',')']:
+                    self.text_delimeter.delete("end-2c", "end-1c")
+                else:
+                    self.update_basename()
                 self.delimeter=self.text_delimeter.get("1.0",tk.END).strip()
-                self.update_basename()
-                #what symbosl not to use???
+
 
             def get_appendix_size(event):
                 value=self.text_size.get("1.0",tk.END).strip()
@@ -287,7 +290,8 @@ class OptionsFrame(AreaFrame):
     
   
     def update_basename(self):
-        name=self.name_field.get("1.0",tk.END).strip() + self.delimeter
+        name=self.name_field.get("1.0",tk.END).strip() + self.text_delimeter.get("1.0",tk.END).strip()
+
         if self.appendix_size>1:
             for i in range(self.appendix_size-1):
                 name+="0"

@@ -1,3 +1,4 @@
+from confirmFrame import ConfirmationFrame
 from dir_navigation import DirNavigation
 from contentFrame import ContentFrame
 from filesystem import Filesystem
@@ -31,7 +32,7 @@ selected_files_frame = ContentFrame(preview_frame.content, "Selected Files",True
 switches={}
 select_options_frame = OptionsFrame(navigation_frame,0,"select",switches,fs,files_frame)
 edit_options_frame = OptionsFrame(navigation_frame,1,"edit",switches,fs)
-confirm_frame = AreaFrame(preview_frame.content)
+confirm_frame = ConfirmationFrame(preview_frame.content)
 navigation = DirNavigation(navigation_frame.content, fs, files_frame,select_options_frame)
 
 select_options_frame.switch_frame_select.clicked()
