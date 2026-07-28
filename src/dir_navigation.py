@@ -2,9 +2,10 @@ import tkinter as tk
 from tkinter import filedialog
 from tkinter import Canvas
 from tkinter import Scrollbar
+from pathlib import Path
 
 class DirNavigation():
-    def __init__(self,parent,file_system,files,options):
+    def __init__(self,parent,file_system,files,options,confiration):
         button_color = '#49a93b'
         button_text_color = '#053836'
         button_border_color = '#41aba1'
@@ -13,7 +14,7 @@ class DirNavigation():
         text_color = '#2fc468'
         border_color = '#41aba1'
         self.root=parent
-        
+        self.confirmation = confiration
         self.path=""
 
         self.button_border=tk.Frame(parent,bg=button_border_color)
@@ -21,8 +22,8 @@ class DirNavigation():
                             bg=button_color,fg=button_text_color,
                             font=('helvetica',24))
         
-
-        self.arrow_buton=tk.Label(parent)
+        
+        
 
         self.button_border.place(relx=0.25, rely=0.2,relwidth=0.5,relheight=0.2)
         self.button.pack(padx=1,pady=1,expand=True,fill='both')
@@ -43,13 +44,12 @@ class DirNavigation():
                                         font=("helvetica",16),
                                         anchor='w',padx=10)
         self.up_button_border=tk.Frame(parent,background=border_color)
+        self.arrow_image=tk.PhotoImage(file='arrow.png')
         self.up_button = tk.Label(self.up_button_border,
-                                        background=main_color, 
-                                        text="wolololo", 
-                                        foreground=text_color,
+                                        background=button_color,
+                                        image=self.arrow_image,
                                         font=("helvetica",16),
                                         anchor='w',padx=10)
-
         self.browse_button_border=tk.Frame(parent,bg=button_border_color)
         self.browse_button=tk.Label(self.browse_button_border,text="Browse",
                             bg=button_color,fg=button_text_color,
@@ -60,10 +60,12 @@ class DirNavigation():
         self.scrollbar = Scrollbar(self.root, orient='vertical', command=self.canvas.yview)
         self.scrollable_frame = tk.Frame(self.canvas, background=main_color, )
 
+        
+        
         def on_enter_button(event):
-            self.button.configure(bg=button_text_color,fg=button_color)
+            event.widget.configure(bg=button_text_color,fg=button_color)
         def on_leave_button(event):
-            self.button.configure(bg=button_color,fg=button_text_color)
+            event.widget.configure(bg=button_color,fg=button_text_color)
 
         def on_enter_browse(event):
             self.browse_button.configure(bg=button_text_color,fg=button_color)
@@ -86,6 +88,8 @@ class DirNavigation():
             open_directory(self.path+'/'+event.widget.cget('text'))
 
         def open_directory(path):
+            self.confirmation.path=path
+            self.confirmation.copy_path_input.configure(text=path+"-copy")
             file_system.get_contents(path)
             self.path=path
             path=path.split('/')
@@ -105,10 +109,11 @@ class DirNavigation():
             self.background.pack(fill="both", expand=True, padx=1, pady=1)
             self.header_path.pack(fill="both", expand=True, padx=1, pady=1)
             self.header_name.pack(fill="both", expand=True, padx=1, pady=1)
-            print(path,dir_name)
+            
             self.header_path.configure(text=path)
             self.header_name.configure(text=dir_name)
             self.up_button_border.place(x=10,y=60, width=50, height =50)
+            self.up_button.pack(padx=1,pady=1)
 
             if len(file_system.directories)>0:
 
@@ -144,6 +149,10 @@ class DirNavigation():
             options.uptade_content()
 
 
+        def go_up(event):
+            path=Path(self.path)
+            
+            open_directory(str(path.parent))
 
         self.button.bind("<Enter>",on_enter_button)
         self.button.bind("<Leave>",on_leave_button)
@@ -153,7 +162,9 @@ class DirNavigation():
         self.browse_button.bind("<Leave>",on_leave_browse)
         self.browse_button.bind("<Button-1>",show_directories)
 
-
+        self.up_button.bind("<Enter>",on_enter_button)
+        self.up_button.bind("<Leave>",on_leave_button)
+        self.up_button.bind("<Button-1>",go_up)
 
 
         

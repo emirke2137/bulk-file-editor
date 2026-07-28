@@ -7,6 +7,7 @@ class Filesystem:
     def __init__(self):
         self.extensions_set=set()
         self.max_size=0
+        self.selected_idx=set()
 
     def get_contents(self,path):
         self.curent_location = path
@@ -40,25 +41,28 @@ class Filesystem:
             
     def filter(self, ext_set=set(), word_set=set(), size=[]):
         selected=set()
-        print(ext_set,word_set,size)
-        for file in self.files:
+        self.selected_idx=set()
+        
+        for idx,file in enumerate(self.files):
             
             if (bool(ext_set) and file.ext in ext_set) or (not bool(ext_set)):
-                print("1", file.ext)
+               
                 if (size and file.size>size[0] and file.size<size[1]) or (not size):
-                    print("2", file.size)
+                    
                     if not bool(word_set):
                         selected.add(file.name+file.ext)
+                        self.selected_idx.add(idx)
                     else:                        
                         for word in word_set:
                             if word in file.name:
                                 selected.add(file.name+file.ext)
+                                self.selected_idx.add(idx)
         
         return list(selected)
                 
             
-
-
+    def save(self,path):
+        pass
 
 
 #togle hidden files manualy
