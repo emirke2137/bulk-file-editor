@@ -65,6 +65,7 @@ class OptionsFrame(AreaFrame):
             self.text_field=tk.Text(self.container_words,font=self.font,bg=self.main_color,fg=self.text_color,height=1)
             self.text_field.pack(side='left',fill='x',expand=True)
             
+            #handle words input by user
             def get_word(event):
                 word = self.text_field.get("1.0",tk.END).strip()
                 if word=='':
@@ -245,7 +246,8 @@ class OptionsFrame(AreaFrame):
 
         #move the option frame up
         self.lift()
-        
+
+    #called when current folder is chanched    
     def uptade_content(self):
         def on_enter_field(event):
             event.widget.configure(bg=self.text_color,fg=self.main_color)

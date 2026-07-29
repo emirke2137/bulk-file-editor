@@ -1,6 +1,7 @@
 import os
 from stat import *
 from pathlib import Path
+import shutil
 
 
 class Filesystem:
@@ -42,12 +43,12 @@ class Filesystem:
     def filter(self, ext_set=set(), word_set=set(), size=[]):
         selected=set()
         self.selected_idx=set()
-        
+        print(ext_set)
         for idx,file in enumerate(self.files):
-            
+            print(file.ext)
             if (bool(ext_set) and file.ext in ext_set) or (not bool(ext_set)):
                
-                if (size and file.size>size[0] and file.size<size[1]) or (not size):
+                if (size and file.size>=size[0] and file.size<=size[1]) or (not size):
                     
                     if not bool(word_set):
                         selected.add(file.name+file.ext)
@@ -61,10 +62,31 @@ class Filesystem:
         return list(selected)
                 
             
-    def save(self,path):
-        pass
+    def save(self,sourcepath,destpath,idx,new_name):
+        shutil.copyfile(sourcepath+"/"+self.files[idx].name+self.files[idx].ext,
+                        destpath+"/"+new_name+self.files[idx].ext)
 
-
+    def make_copy_dir(self,path):
+        path=Path(path)
+        
+        try:
+            path.mkdir()
+        
+        except FileExistsError:
+            
+            if path.is_dir():
+                if any(path.iterdir()):
+                    return(False,f"Directory '{path}' already exists and is not empty")
+                else:
+                    return (True,"")
+            else:
+                return(False,f"'{path}' exist and is a file.")
+        except PermissionError:
+            return(False,f"Permission denied: Unable to create '{path}'.")
+        except Exception as e:
+            return(False,f"An error occurred: {e}")
+            
+    
 #togle hidden files manualy
 
 class File:

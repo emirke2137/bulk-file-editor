@@ -1,5 +1,7 @@
 import tkinter as tk
 from areaFrame import AreaFrame
+
+
 class ConfirmationFrame(AreaFrame):
 
     def __init__(self,parent,filesystem,edits):
@@ -86,12 +88,32 @@ class ConfirmationFrame(AreaFrame):
                 pass
                 #ask to fill out field
             else:
-                new_name=new_name[:-1*self.edits.appendix_size]
-                print(new_name)
+                
+                if self.should_overwrite==False:
+                    success=self.filesystem.make_copy_dir(self.path+"-copy/")
+                    if success[0]==False:
+                        return "aborted"
+
+                
+            
                 count=1
                 for idx in filesystem.selected_idx:
+                    new_name=new_name[:-1*self.edits.appendix_size]
                     print(filesystem.files[idx].name+filesystem.files[idx].ext)
-                    print()
+                    count_str=str(count)
+                    count+=1
+                    appendix=""
+                    print(len(count_str))
+                    if len(count_str)<self.edits.appendix_size:
+                        extra_zeors=["0"]*(self.edits.appendix_size-len(count_str))
+                        appendix: str="".join(extra_zeors)
+                    new_name=new_name+appendix+count_str
+                
+                    if self.should_overwrite==False:
+                        print(new_name)
+                        self.filesystem.save(self.path,self.path+"-copy",idx,new_name)
+                        
+
 
 
         copy_field_container.bind("<Enter>",on_enter_copy_field)
