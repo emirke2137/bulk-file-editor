@@ -47,7 +47,11 @@ class ContentFrame(tk.Frame):
         print(selected)
         
         if selected:
-            self.pair.set_selected(selected)
+            size = self.pair.set_selected(selected)
+            self.place_configure(height=-(180+size))
+            self.canvas.place_configure(height=-(240+size))
+
+
             
         else:
             self.pair.border.place_forget()
@@ -69,6 +73,7 @@ class ContentFrame(tk.Frame):
 
             self.canvas.configure(yscrollcommand=auto_scrollbar,bg=self.main_color)
             self.canvas.place_configure(height=-240)
+            
 
 
                 
@@ -126,7 +131,7 @@ class ContentFrame(tk.Frame):
                 if first <= 0.0 and last >= 1.0:
                     self.pair.scroll.place_forget()  
                 else:
-                    self.pair.scroll.place(relx=1,x=-10,y=70,width=10,relheight=1, height=-240-size-100)
+                    self.pair.scroll.place(relx=1,x=-10,y=70,width=10,relheight=1, height=-(240+size+100))
 
                 self.pair.scroll.set(first, last)
 
@@ -142,7 +147,7 @@ class ContentFrame(tk.Frame):
                 self.border.place(anchor='sw', x=20,rely=1,y=-170,relwidth=1,width=-40, height=size+80)
                 self.pack(padx=1,pady=1,fill="both", expand=True)
                 self.pair.canvas.place_configure(height=-260-size-80)
-                self.pair.canvas.configure(yscrollcommand=auto_scrollbar1)
+        self.pair.canvas.configure(yscrollcommand=auto_scrollbar1)
 
            
         self.clear_items()
@@ -158,6 +163,9 @@ class ContentFrame(tk.Frame):
             elem.pack(padx=1,pady=1,fill='x')
             
             self.items_obj.append(elem)
+
+        #frames total height, for the other frame to adjust
+        return size+100
 
 
 

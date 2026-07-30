@@ -43,9 +43,8 @@ class Filesystem:
     def filter(self, ext_set=set(), word_set=set(), size=[]):
         selected=set()
         self.selected_idx=set()
-        print(ext_set)
+    
         for idx,file in enumerate(self.files):
-            print(file.ext)
             if (bool(ext_set) and file.ext in ext_set) or (not bool(ext_set)):
                
                 if (size and file.size>=size[0] and file.size<=size[1]) or (not size):
@@ -63,14 +62,29 @@ class Filesystem:
                 
             
     def save(self,sourcepath,destpath,idx,new_name):
-        shutil.copyfile(sourcepath+"/"+self.files[idx].name+self.files[idx].ext,
-                        destpath+"/"+new_name+self.files[idx].ext)
+        try:
+            shutil.copyfile(sourcepath+"/"+self.files[idx].get_name(),
+                            destpath+"/"+new_name+self.files[idx].ext)
+            return (True,"")
+        except shutil.SameFileError:
+            return (False,f"File with name {new_name} already exists")
+        except Exception as e:
+            return (False,f"An error occurred: {e}")
+
+    def rename(self,sourcepath,idx,new_name):
+        try:
+            os.rename(sourcepath+"/"+self.files[idx].get_name(),
+                    sourcepath+"/"+new_name+self.files[idx].ext)
+            return (True,"")
+        except Exception as e:
+            return (False,f"An error occurred: {e}")
 
     def make_copy_dir(self,path):
         path=Path(path)
         
         try:
             path.mkdir()
+            return (True,"")
         
         except FileExistsError:
             
@@ -87,7 +101,7 @@ class Filesystem:
             return(False,f"An error occurred: {e}")
             
     
-#togle hidden files manualy
+
 
 class File:
     def __init__(self,name,ext,size,created,permissions):
@@ -96,6 +110,9 @@ class File:
         self.size = size
         self.creation_time = created
         self.permissions = permissions
+
+    def get_name(self):
+        return self.name+self.ext
 
 class Directory:
     def __init__(self,name):

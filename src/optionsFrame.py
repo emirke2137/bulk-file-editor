@@ -287,6 +287,7 @@ class OptionsFrame(AreaFrame):
 
 
     def update_selection(self):
+        print("update call")
         selected=self.filesystem.filter(self.selected_extensions,self.input_words,self.size_range)
         self.files_frame.update_selection(selected)
     

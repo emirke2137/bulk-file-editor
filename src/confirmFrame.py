@@ -1,4 +1,5 @@
 import tkinter as tk
+
 from areaFrame import AreaFrame
 
 
@@ -68,6 +69,7 @@ class ConfirmationFrame(AreaFrame):
             copy_field_container.configure(bg=self.main_color)
             copy_field_label.configure(bg=self.main_color, fg=self.secondary_color)
             self.copy_path_input.configure(bg=self.secondary_color,fg=self.main_color)
+            tk.messagebox.showwarning(message="After clicking APPLY the original file names will be overwriten. This action is irreversible.")
 
         def on_click_path(event):
             self.should_overwrite=False
@@ -84,24 +86,28 @@ class ConfirmationFrame(AreaFrame):
 
         def on_click_apply(event):
             new_name=self.edits.preview.cget("text")
-            if new_name =="":
-                pass
-                #ask to fill out field
+            if new_name =="" or not bool(filesystem.selected_idx):
+                if not bool(filesystem.selected_idx):
+                    tk.messagebox.showinfo(message="No files selected")
+                else:
+                    tk.messagebox.showinfo(message="Enter new name in the Edit tab")
             else:
                 
                 if self.should_overwrite==False:
                     success=self.filesystem.make_copy_dir(self.path+"-copy/")
                     if success[0]==False:
+                        tk.messagebox.showerror(title="Couldn't create new folder.", message=f"Perhaps a folder with path {self.path+"-copy/"} already exist")
                         return "aborted"
 
                 
             
-                count=1
+                count=0
+                successfully_renamed=0
                 for idx in filesystem.selected_idx:
-                    new_name=new_name[:-1*self.edits.appendix_size]
-                    print(filesystem.files[idx].name+filesystem.files[idx].ext)
-                    count_str=str(count)
                     count+=1
+                    new_name=new_name[:-1*self.edits.appendix_size]
+                    print(filesystem.files[idx].get_name())
+                    count_str=str(count)
                     appendix=""
                     print(len(count_str))
                     if len(count_str)<self.edits.appendix_size:
@@ -112,6 +118,23 @@ class ConfirmationFrame(AreaFrame):
                     if self.should_overwrite==False:
                         print(new_name)
                         self.filesystem.save(self.path,self.path+"-copy",idx,new_name)
+                    
+                    else:
+                        
+                        is_renamed=self.filesystem.rename(self.path,idx,new_name)
+                        if is_renamed[0]:
+                            successfully_renamed+=1
+                        else:
+                            tk.messagebox.showerror(title="Couldn't rename file", 
+                                                    message=f"Couldn't rename file {self.path} to {new_name}")
+
+                tk.messagebox.showinfo(title="Renaming finished",message=f"{successfully_renamed} files out of {count} renamed successfully")
+                        
+                        
+
+                        
+
+
                         
 
 
